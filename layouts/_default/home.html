@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    {{partial "head.html" .}}
+</head>
+<body>
+    <div class="content-container">
+        <div id="nav-site-info">
+            <div class="column" id="nav">
+                {{partial "nav.html" .}}
+            </div>
+            <div class="column" id="site-info">
+                {{partial "site-info.html" .}}
+            </div>
+        </div>
+        <div class="column" id="page-content">
+            <header>
+                {{.Title}}
+            </header>
+            <main>
+                {{.Content}}
+            </main>
+            <footer>
+                {{partial "footer.html" .}}
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

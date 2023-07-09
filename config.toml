@@ -1,3 +1,48 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://farnostmenin.cz/'
+languageCode = 'cs-cz'
+title = 'Farnost Měnín'
+uglyURLs = "false"
+enableEmoji = "true"
+[params]
+    description = "Oficiální stránky Římskokatolické farnosti Měnín"
+[menus]
+    [[menu.main]]
+        identifier = "porad-bohosluzeb"
+        name = "Pořad bohoslužeb"
+        url = "/porad-bohosluzeb"
+        weight = "1"
+    [[menu.main]]
+        identifier = "vyuka-nabozenstvi"
+        name = "Výuka náboženství"
+        url = "/vyuka-nabozenstvi"
+        weight = "2"
+    [[menu.main]]
+        identifier = "svatosti"
+        name = "Svátosti"
+        url = "/svatosti"
+        weight = "3"
+    [[menu.main]]
+        identifier = "sluzby-ve-farnosti"
+        name = "Služby ve farnosti"
+        url = "/sluzby-ve-farnosti"
+        weight = "4"
+    [[menu.main]]
+        identifier = "varhanici"
+        name = "Varhaníci"
+        url = "/varhanici"
+        weight = "5"
+    [[menu.main]]
+        identifier = "uzitecne-odkazy"
+        name = "Užitečné odkazy"
+        url = "/uzitecne-odkazy"
+        weight = "6"
+    [[menu.main]]
+        identifier = "fotogalerie"
+        name = "Fotogalerie"
+        url = "/fotogalerie"
+        weight = "7"
+    [[menu.main]]
+        identifier = "kontakt"
+        name = "Kontakt"
+        url = "/kontakt"
+        weight = "8"

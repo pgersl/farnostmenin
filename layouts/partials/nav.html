@@ -1,0 +1,19 @@
+<a href="#" class="toggle">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+</a>
+<div class="nav">
+    <div class="nav-site-title">
+        <div class="nav-site-title-link">
+            <a href="{{.Site.BaseURL}}">{{.Site.Title}}</a>
+        </div>
+    </div>
+    <div class="nav-links">
+        {{range .Site.Menus.main}}
+            <div class="nav-link">
+                <a href="{{.URL}}">{{.Name}}</a>
+            </div>
+        {{end}}
+    </div>
+</div>

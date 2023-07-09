@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --bg-clr: #FFFFFF;
+    --bg-clr2: #f1f1f1;
+    --bg-clr3: #0000003b;
+    --txt-clr: #000000;
+
+    --font-size: 18px;
+}
+
+/*General*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bg-clr2);
+    color: var(--txt-clr);
+    font-size: var(--font-size);
+    font-family: 'Poppins', sans-serif;
+}
+
+.content-container {
+    width: 90vw;
+    max-width: 1300px;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1.5fr 5fr;
+    column-gap: 2.5em;
+}
+
+.column {
+    background-color: var(--bg-clr);
+    padding: 1.5em;
+    box-shadow: 0 0 10px var(--bg-clr3);
+    border-radius: 7px;
+}
+
+hr {
+    background-color: var(--txt-clr);
+    border: none;
+    height: 1px;
+    margin: 1em auto;
+}
+
+/*NAV*/
+
+#nav {
+    margin-bottom: 2.5em;
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+.nav-site-title {
+    margin-bottom: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+.nav-site-title-link a {
+    padding: 8px;
+    border-radius: 2px;
+    text-decoration: none;
+    color: var(--txt-clr);
+    transition: color 75ms, background 75ms;
+}
+.nav-site-title-link a:hover {
+    color: var(--bg-clr);
+    background-color: var(--txt-clr);
+}
+.nav-link {
+    padding-bottom: .7em;
+}
+.nav-link a {
+    color: var(--txt-clr);
+    text-decoration: none;
+}
+.nav-link a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/*FOOTER*/
+
+.footer-content {
+    text-align: center;
+}
+.footer-link {
+    color: var(--txt-clr);
+    text-decoration: none;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+.footer-site-title {
+    font-weight: bold;
+}
+
+/*PAGE-CONTENT*/
+
+#page-content {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+    font-size: calc(var(--font-size) * 2);
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/*SITE-INFO*/
+
+.site-info-part-heading {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+.site-info-part-content p {
+    margin-bottom: .7em;
+}
