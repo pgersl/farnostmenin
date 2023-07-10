@@ -1,0 +1,34 @@
+.ohlasky {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1em;
+    border-top: solid 2px var(--txt-clr)
+}
+.ohlasky tbody {
+    border-bottom: solid 2px var(--txt-clr)
+}
+.ohlasky th {
+    font-weight: bold;
+    padding: 1em 1em 1em 0;
+}
+.ohlasky tbody tr th:nth-of-type(1) {
+    text-transform: uppercase;
+}
+.ohlasky td {
+    padding: 0 2em .5em 0;
+}
+.ohlasky tbody tr td:nth-of-type(2) {
+    font-weight: bold;
+}
+.ohlasky tbody tr td:nth-of-type(3) {
+    font-style: italic;
+    width: 50%;
+}
+.ohlasky tbody tr:last-of-type td {
+    padding-bottom: 1em;
+}
+.ohlasky tr.ohlasky-alert {
+    color: var(--accent2);
+    font-weight: bold;
+}

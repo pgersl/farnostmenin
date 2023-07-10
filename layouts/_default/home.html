@@ -5,25 +5,27 @@
     {{partial "home-style.html" .}}
 </head>
 <body>
-    <div class="content-container">
-        <div id="nav-site-info">
-            <div class="column" id="nav">
-                {{partial "nav.html" .}}
+    <div class="site-header">
+        {{.Title}}
+    </div>
+    <div class="main-content">
+        <div class="content-container">
+            <div id="nav-site-info">
+                <div class="column" id="nav">
+                    {{partial "nav.html" .}}
+                </div>
+                <div class="column" id="site-info">
+                    {{partial "site-info.html" .}}
+                </div>
             </div>
-            <div class="column" id="site-info">
-                {{partial "site-info.html" .}}
+            <div class="column" id="page-content">
+                <main>
+                    {{.Content}}
+                </main>
+                <footer>
+                    {{partial "footer.html" .}}
+                </footer>
             </div>
-        </div>
-        <div class="column" id="page-content">
-            <header id="home-header">
-                <div class="header-title">{{.Title}}</div>
-            </header>
-            <main id="home-main">
-                {{.Content}}
-            </main>
-            <footer>
-                {{partial "footer.html" .}}
-            </footer>
         </div>
     </div>
 </body>

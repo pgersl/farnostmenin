@@ -21,10 +21,8 @@
             <div class="column" id="page-content">
                 <main>
                     {{.Content}}
-                    {{if .Params.ohlasky}}
-                        {{range where .Site.Pages ".Params.ohlaska" "==" true | first 1}}
-                            {{.Content}}
-                        {{end}}
+                    {{range .Pages}}
+                        {{.Content}}
                     {{end}}
                 </main>
                 <footer>

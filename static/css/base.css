@@ -7,6 +7,7 @@
     --txt-clr: #000000;
     --accent1: #1687d3;
     --accent1-var: #5cb4ee;
+    --accent2: rgb(255, 166, 0); 
 
     --font-size: 18px;
 }
@@ -20,10 +21,30 @@
 
 body {
     background-color: var(--bg-clr2);
-    color: var(--txt-clr);
     font-size: var(--font-size);
     font-family: 'Open Sans', sans-serif;
+}
 
+.site-header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    text-transform: uppercase;
+    font-size: calc(var(--font-size) * 2.5);
+    font-weight: bold;
+    color: var(--bg-clr);
+    background-color: #0000006b;
+    background-image: url(/imgs/base/kostel-bg.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.main-content {
+    background-color: var(--bg-clr2);
+    color: var(--txt-clr);
 }
 
 .content-container {
@@ -49,6 +70,11 @@ hr {
     margin: 1em auto;
 }
 
+img {
+    width: 60vw;
+    max-width: 700px;
+}
+
 /*NAV*/
 
 #nav {
@@ -57,6 +83,14 @@ hr {
 .nav {
     display: flex;
     flex-direction: column;
+}
+.nav-toggle-site-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
 }
 .nav-site-title {
     margin-bottom: 1em;
@@ -128,30 +162,78 @@ hr {
     display: flex;
     flex-direction: column;
 }
-
-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(var(--font-size) * 2);
-    font-weight: bold;
-    margin-bottom: .5em;
-}
-
-.header-title {
-    padding: 0 12px 4px 12px;
-    border-bottom: solid 4px var(--accent1);
-}
-
 main {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
 }
-
+main a {
+    color: var(--accent1);
+    text-decoration: none;
+}
+main a:hover {
+    text-decoration: underline;
+}
+main a:active {
+    color: var(--accent1-var);
+}
 main p {
     margin-bottom: 1em;
+}
+main h1, main h2, main h3, main h4, main h5 {
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: solid 4px var(--accent1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+main h1 {
+    margin: .7em 0;
+    font-size: calc(var(--font-size) * 2);
+}
+main h2 {
+    margin: .7em 0;
+    font-size: calc(var(--font-size) * 1.8)
+}
+main h3 {
+    margin: .6em 0;
+    font-size: calc(var(--font-size) * 1.6)
+}
+main h4 {
+    margin: .5em 0;
+    font-size: calc(var(--font-size) * 1.4)
+}
+main h5 {
+    margin: .4em 0;
+    font-size: calc(var(--font-size) * 1.2)
+}
+main h1:nth-of-type(1) {
+    margin-top: 0;
+}
+main h2:nth-of-type(1) {
+    margin-top: 0;
+}
+main h3:nth-of-type(1) {
+    margin-top: 0;
+}
+main h4:nth-of-type(1) {
+    margin-top: 0;
+}
+main h5:nth-of-type(1) {
+    margin-top: 0;
+}
+main .icon-link {
+    width: fit-content;
+}
+main .icon-link i {
+    font-size: calc(var(--font-size) * 0.8);
+}
+main ul {
+    list-style-position: inside;
 }
 
 /*SITE-INFO*/
@@ -185,14 +267,15 @@ main p {
 }
 
 @media (max-width:432px) {
+    :root {
+        --font-size: 15px;
+    }
     #nav-site-info {
         position: sticky;
         top: 0;
         z-index: 1;
     }
-    .nav {
-        flex-direction: row;
-        flex-wrap: nowrap;
+    .nav-toggle-site-title {
         justify-content: space-between;
     }
     .nav-links {
