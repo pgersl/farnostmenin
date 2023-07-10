@@ -2,7 +2,6 @@
 <html lang="cs">
 <head>
     {{partial "head.html" .}}
-    {{partial "home-style.html" .}}
 </head>
 <body>
     <div class="content-container">
@@ -15,10 +14,10 @@
             </div>
         </div>
         <div class="column" id="page-content">
-            <header id="home-header">
+            <header>
                 <div class="header-title">{{.Title}}</div>
             </header>
-            <main id="home-main">
+            <main>
                 {{.Content}}
             </main>
             <footer>

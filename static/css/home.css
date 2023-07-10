@@ -1,0 +1,19 @@
+#home-header {
+    font-size: calc(var(--font-size) * 2.5);
+}
+#home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home-main img {
+    max-width: 850px;
+    width: 60vw;
+    padding: 1em 0;
+}
+
+@media (max-width:972px) {
+    #home-main img {
+        width: 80vw;
+    }
+}
