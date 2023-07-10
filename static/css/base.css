@@ -139,6 +139,10 @@ img {
     background-color: var(--txt-clr);
     border-radius: 10px;
 }
+a.highlight {
+    color: var(--accent1);
+    font-weight: bold;
+}
 
 /*FOOTER*/
 
@@ -300,8 +304,6 @@ main ul {
     .nav.toggled .nav-link a {
         margin-right: 0;
         display: block;
-        color: var(--accent1);
-        font-weight: bold;
     }
     .nav.toggled .toggle .bar:nth-of-type(3) {
         display: none

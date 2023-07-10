@@ -11,7 +11,7 @@ farní kostel sv. Markéty
 
 **Tel**. (pevná linka): 547 235 385
 
-**E-mail**: [menin@diezece.cz](mailto:menin@diezece.cz)
+**E-mail**: [menin@dieceze.cz](mailto:menin@diezece.cz)
 
 **IČO**: 670 27 695
 
