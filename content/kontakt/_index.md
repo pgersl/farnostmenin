@@ -19,6 +19,8 @@ farní kostel sv. Markéty
 
 **Bankovní spojení**: 2141899389/0800
 
+{{< icon-link class="brand-logo" link="https://www.facebook.com/Farnost-M%C4%9Bn%C3%ADn-387464398306976" icon="fa-brands fa-square-facebook" target="blank" >}}
+
 ### Duchovní správce
 **Mgr. et Bc. Jaroslav Trávníček** (*excurrendo administrátor*)
 

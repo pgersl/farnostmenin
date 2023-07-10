@@ -15,5 +15,6 @@ layout: single
 ### Obce
 - [Měnín](https://www.menin.cz/)
 - [Blučina](https://www.blucina.cz/)
+- [Telnice](https://www.telnice.cz/)
 ### Dary a sbírky
 - [Donator.cz](https://donator.cz/) - dárcovský portál Biskupství brněnského

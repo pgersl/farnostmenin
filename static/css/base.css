@@ -239,6 +239,9 @@ main .icon-link i {
 main ul {
     list-style-position: inside;
 }
+main .brand-logo {
+    font-size: calc(var(--font-size) * 2);
+}
 
 /*SITE-INFO*/
 
