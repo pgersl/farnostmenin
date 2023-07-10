@@ -32,3 +32,12 @@
     color: var(--accent2);
     font-weight: bold;
 }
+
+@media (max-width:432px) {
+    .ohlasky tbody th:last-of-type {
+        display: none;
+    } 
+    .ohlasky tbody td:last-of-type {
+        display: none;
+    }
+}
