@@ -18,7 +18,7 @@ layout: single
 - [Telnice](https://www.telnice.cz/)
 ### Dary a sbírky
 - [Donator.cz](https://donator.cz/) - dárcovský portál Biskupství brněnského
-- [Kaple Nesvačilka](http://www.kaplenesvacilka.cz/) - sbírka na dostavbu kaple Panny Marie bolestné, vzdělávacího, duchovního a charitativního centra
+- [Kaple Nesvačilka](http://www.kaplenesvacilka.cz/) - sbírka na dostavbu kaple Panny Marie bolestné
 ### Pohřební služba
 - [Pavel Cajzl](https://www.pohrby.eu/)
 - [CONCORDIA](http://www.concordia.cz/www/index.php)
