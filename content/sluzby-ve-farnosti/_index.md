@@ -6,7 +6,7 @@ layout: single
 - Antonín Křivánek
 ### Úklid kostela
 - pí. Ralenovská
-- pí. Vudilová
+- pí. Vudiová
 - pí. Novotňáková
 - pí. Šidlová
 - pí. Kubíčková
@@ -17,7 +17,7 @@ layout: single
 - pí. Křivánková
 - pí. Černá
 - pí. Vlastička
-- pí. Floriánová
+- pí. Florianová
 - pí. Horňáková
 - pí. Odrážková
 - pí. Pokorná
