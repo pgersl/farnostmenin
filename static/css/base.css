@@ -238,6 +238,7 @@ main .icon-link i {
 }
 main ul {
     list-style-position: inside;
+    margin-bottom: 1em;
 }
 main .brand-logo {
     font-size: calc(var(--font-size) * 2);
