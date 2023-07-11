@@ -18,13 +18,13 @@ layout: single
 - pí. Černá
 - pí. Vlastička
 - pí. Floriánová
-- pí. Hornňáková
+- pí. Horňáková
 - pí. Odrážková
 - pí. Pokorná
-- p. Baxant
 - pí. Umlášková
+- p. Baxant
 
-{{< icon-link link="/sluzby-ve-farnosti/poradnik" icon="fa-solid fa-arrow-up-right-from-square" content="Pořádník služeb" target="self" class="icon-link" >}}
+{{< icon-link link="/sluzby-ve-farnosti/poradnik" icon="fa-solid fa-arrow-up-right-from-square" content="Pořadník služeb" target="self" class="icon-link" >}}
 
 ### Lektoři
 ### Katechetky

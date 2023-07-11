@@ -6,6 +6,6 @@ layout: single
 
 {{< tables/sluzby-skupiny >}}
 
-# Pořandík služeb
+# Pořadník služeb
 
 {{< tables/sluzby >}}
