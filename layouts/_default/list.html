@@ -19,9 +19,19 @@
             <div class="column" id="page-content">
                 <main>
                     {{.Content}}
-                    {{range .Pages}}
-                        {{.Content}}
+                    {{if eq .Params.list "full"}}
+                        {{range .Pages}}
+                            {{.Content}}
+                        {{end}}
                     {{end}}
+                    {{if eq .Params.list "links"}}
+                        <ul class="list-links">
+                            {{range .Pages}}
+                                <li><a href="{{.URL}}">{{.Title}}</a></li>
+                            {{end}}
+                        </ul>
+                    {{end}}
+                    {{if eq .Params.list ""}}
                 </main>
                 <footer>
                     {{partial "footer.html" .}}
