@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
     {{partial "head.html" .}}
-    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/single.css">
 </head>
 <body>
     {{partial "site-header.html" .}}
@@ -17,8 +17,10 @@
                 </div>
             </div>
             <div class="column" id="page-content">
-                <main id="home-main">
-                    {{.Content}}
+                <main>
+                    <h1>Error 404: Stránka nenalezena!</h1>
+                    <p>Zdá se, že jste narazili na stránku, která (zatím) neexistuje, nebo jste kliknuly na rozbitý odkaz.</p>
+                    <p><a href="{{.Site.BaseURL}}">Vrátit se domů</a></p>
                 </main>
                 <footer>
                     {{partial "footer.html" .}}

@@ -2,7 +2,7 @@
 <html lang="cs">
 <head>
     {{partial "head.html" .}}
-    {{partial "single-style" .}}
+    <link rel="stylesheet" href="/css/gallery.css">
 </head>
 <body>
     {{partial "site-header" .}}
@@ -30,6 +30,22 @@
                                 <li><a href="{{.URL}}">{{.Title}}</a></li>
                             {{end}}
                         </ul>
+                    {{end}}
+                    {{if eq .Params.list "gallery"}}
+                        <div class="galleries-container">
+                            <h4>2019</h4>
+                            <div class="galleries">
+                                {{range where .Pages ".Params.imgseries" "==" 2019}}
+                                    {{partial "gallery-card.html" .}}
+                                {{end}}
+                            </div>
+                            <h4>2018</h4>
+                            <div class="galleries">
+                                {{range where .Pages ".Params.imgseries" "==" 2018}}
+                                    {{partial "gallery-card.html" .}}
+                                {{end}}
+                            </div>
+                        </div>
                     {{end}}
                 </main>
                 <footer>
