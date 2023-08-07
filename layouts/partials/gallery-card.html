@@ -2,7 +2,12 @@
     <div class="gallery-title-img">
         <img src="{{.Params.titimg}}">
     </div>
-    <div class="gallery-title">
-        {{.Title}}
+    <div class="gallery-info">
+        <div class="gallery-title">
+            {{.Title}}
+        </div>
+        <div class="gallery-date">
+            {{.Date | time.Format "6. 1. 2006"}}
+        </div>
     </div>
 </a>

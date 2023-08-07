@@ -20,6 +20,7 @@
             <div class="column" id="page-content">
                 <main>
                     <h1>{{.Title}}</h1>
+                    <p class="gallery-date">{{.Date | time.Format "6. 1. 2006"}}</p>
                     {{.Content}}
                     <div class="gallery">
                         {{$imgsPath := (printf "imgs/gallery/%s" .Params.gallery )}}

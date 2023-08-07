@@ -1,5 +1,5 @@
 ---
-title: Živý Betlém
+title: Živý betlém
 layout: gallery
 date: 2018-12-27
 imgseries: 2018

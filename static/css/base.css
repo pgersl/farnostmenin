@@ -325,3 +325,9 @@ main .brand-logo {
         top: 8px;
     }
 }
+
+@media (max-width:360px) {
+    .site-header {
+        font-size: 10vw;
+    }
+}
