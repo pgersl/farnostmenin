@@ -38,7 +38,7 @@ enableEmoji = "true"
         weight = "7"
     [[menu.main]]
         identifier = "galerie"
-        name = "Galerie"
+        name = "Fotogalerie"
         url = "/galerie"
         weight = "3"
     [[menu.main]]
