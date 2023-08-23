@@ -86,3 +86,14 @@
 .sluzby-skupiny thead tr {
     border-bottom: 2px solid var(--txt-clr);
 }
+
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.figure img {
+    width: 100%;
+}

@@ -1,0 +1,104 @@
+.galleries-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.galleries  {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 1em;
+}
+.gallery-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 0 10px var(--bg-clr3);
+    border-radius: 7px;
+    color: var(--txt-clr);
+    text-decoration: none;
+}
+.gallery-link:hover {
+    text-decoration: none;
+    box-shadow: 0 0 20px var(--bg-clr3);
+}
+.gallery-title-img {
+    height: 60%;
+    width: 100%;
+    padding-bottom: 0;
+}
+.gallery-title-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.gallery-info {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    max-width: 75%;
+    text-align: center;
+}
+.gallery-title {
+    font-weight: bold;   
+}
+.gallery-date {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.list-aktuality {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+}
+.list-aktuality-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 2em;
+    align-items: center;
+    justify-content: flex-start;
+}
+.list-aktuality-item-info {
+    display: flex;
+    flex-direction: column;
+    gap: .4em;
+}
+.list-item-title {
+    font-size: calc(var(--font-size) * 1.4);
+    font-weight: bold;
+}
+.list-item-date {
+    font-size: 15px;
+    font-style: italic;
+}
+.list-aktuality-item-img {
+    width: fit-content;
+}
+.list-aktuality-item-img img {
+    width: 15vw;
+    background-size: cover;
+}
+
+@media (max-width:575px) {
+    .list-aktuality-item-img {
+        display: none;
+    }
+}

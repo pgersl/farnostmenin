@@ -1,5 +1,6 @@
 ---
 title: "Aktuality"
-layout: single
+layout: list
+list: aktuality
 ---
-Stránky připravujeme!
+# Aktuality

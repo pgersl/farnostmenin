@@ -3,6 +3,7 @@
 <head>
     {{partial "head.html" .}}
     <link rel="stylesheet" href="/css/gallery.css">
+    <link rel="stylesheet" href="/css/list.css">
 </head>
 <body>
     {{partial "site-header" .}}
@@ -30,6 +31,21 @@
                                 <li><a href="{{.URL}}">{{.Title}}</a></li>
                             {{end}}
                         </ul>
+                    {{end}}
+                    {{if eq .Params.list "aktuality"}}
+                        <div class="list-aktuality">
+                            {{range .Pages}}
+                                <div class="list-aktuality-item">
+                                    <div class="list-aktuality-item-img">
+                                        <img src="{{.Params.titimg}}">
+                                    </div>
+                                    <div class="list-aktuality-item-info">
+                                        <a class="list-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
+                                        <div class="list-item-date">{{.Date | time.Format "2. 1. 2006"}}</div>
+                                    </div>
+                                </div>
+                            {{end}}
+                        </div>
                     {{end}}
                     {{if eq .Params.list "gallery"}}
                         <div class="galleries-container">
