@@ -234,6 +234,7 @@ main h5:nth-of-type(1) {
 }
 main .icon-link {
     width: fit-content;
+    padding-bottom: 1em;
 }
 main .icon-link i {
     font-size: calc(var(--font-size) * 0.8);

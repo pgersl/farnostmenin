@@ -5,6 +5,8 @@ layout: single
 
 # Svátosti
 
+{{< icon-link class="icon-link" icon="fa-solid fa-arrow-up-right-from-square" content="Podmínky udílení svátostí" link="/svatosti/podminky" target="self" >}}
+
 *převzato z [christnet.eu](https://www.christnet.eu/clanky/2824/svatosti_a_svatostiny.url)*
 
 **Svátosti** jsou v Novém zákoně ustanoveny Kristem a katolická církev jich uznává sedm: křest, biřmování, eucharistii, svátost smíření, pomazání nemocných, kněžství a manželství. Svátosti doprovázejí celý život křesťana. Ve starší literatuře se setkáme s termínem "svátosti živých" a "svátosti mrtvých". Ty druhé jsou svátost křtu a smíření, nejde tedy o svátosti lidí fyzicky, ale duchovně mrtvých, a tyto svátosti vedou k jejich duchovnímu oživení. V novější literatuře se svátosti dělí na svátosti uvedení do křesťanského života, svátosti uzdravení a svátosti sloužící poslání a společenství věřících. Ať už je ovšem dělení jakékoliv, všechny svátosti směřují ke "svátosti svátostí", tedy eucharistii (svatému přijímání).
