@@ -3,7 +3,7 @@ title: "Služby ve farnosti"
 layout: single
 ---
 ### Kostelník
-- Antonín Křivánek
+- Antonín Křivánek (tel.: 607 510 126)
 ### Úklid kostela
 - pí. Ralenovská
 - pí. Vudiová
