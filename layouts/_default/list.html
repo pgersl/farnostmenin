@@ -49,6 +49,12 @@
                     {{end}}
                     {{if eq .Params.list "gallery"}}
                         <div class="galleries-container">
+                            <h4>2023</h4>
+                            <div class="galleries">
+                                {{range where .Pages ".Params.imgseries" "==" 2023}}
+                                    {{partial "gallery-card.html" .}}
+                                {{end}}
+                            </div>
                             <h4>2020</h4>
                             <div class="galleries">
                                 {{range where .Pages ".Params.imgseries" "==" 2020}}

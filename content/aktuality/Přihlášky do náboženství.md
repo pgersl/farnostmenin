@@ -3,6 +3,7 @@ title: "Přihlášky do náboženství"
 layout: single
 date: 2023-08-31
 titimg: "/imgs/aktuality/31-8-23_2.png"
+aktualita: true
 ---
 # Přihlášky do náboženství
 

@@ -3,6 +3,7 @@ languageCode = 'cs-cz'
 title = 'Farnost Měnín'
 uglyURLs = "false"
 enableEmoji = "true"
+buildFuture = "true"
 [params]
     description = "Oficiální stránky Římskokatolické farnosti Měnín"
 [menus]

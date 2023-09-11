@@ -3,6 +3,7 @@ title: "Kurz Katecheta 2023/2024"
 layout: single
 date: 2023-08-23
 titimg: "/imgs/aktuality/23-8-23_2.jpg"
+aktualita: true
 ---
 # Kurz Katecheta 2023/2024
 Kurz Katecheta je určen těm, kdo chtějí v budoucnu po dohodě s duchovním správcem pomáhat ve farní katechezi dětí či v katechezi jiné věkové skupiny. Pro účast v něm je potřeba řádné absolvování Teologického kurzu.

@@ -3,6 +3,7 @@ title: "Žehnání školních aktovek a pomůcek"
 layout: single
 date: 2023-08-31
 titimg: "/imgs/aktuality/31-8-23.jpg"
+aktualita: true
 ---
 # Žehnání školních aktovek a pomůcek
 
