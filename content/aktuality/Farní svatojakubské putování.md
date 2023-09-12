@@ -26,7 +26,6 @@ Za farníky:
 - René Misák
 - Dana Grolichová
 - Růžena Aujezdská
-
-*Pan farář Jaroslav Trávníček*
+- Pan farář Jaroslav Trávníček
 
 {{< fig src="/imgs/aktuality/9-9-23_2.JPG" >}}

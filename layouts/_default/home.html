@@ -21,9 +21,20 @@
             <div class="column" id="page-content">
                 <main id="home-main">
                     {{.Content}}
-                    <h1>Aktuálně</h1>
+                    <h1>Nejnovější příspěvky</h1>
                     <div class="list-aktuality">
-                        {{range where .Site.Pages ".Params.aktualita" "==" true | first 3}}
+                        {{range where .Site.Pages ".Params.aktualita" "==" true | first 2}}
+                            <div class="list-aktuality-item">
+                                <div class="list-aktuality-item-img">
+                                    <img src="{{.Params.titimg}}">
+                                </div>
+                                <div class="list-aktuality-item-info">
+                                    <a class="list-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
+                                    <div class="list-item-date">{{.Date | time.Format "2. 1. 2006"}}</div>
+                                </div>
+                            </div>
+                        {{end}}
+                        {{range where .Site.Pages ".Params.layout" "==" "gallery" | first 1}}
                             <div class="list-aktuality-item">
                                 <div class="list-aktuality-item-img">
                                     <img src="{{.Params.titimg}}">
@@ -35,14 +46,6 @@
                             </div>
                         {{end}}
                     </div> 
-                    <h1>Nejnovější příspěvky</h1>
-                    <div class="galleries-container">
-                        <div class="galleries">
-                            {{range where .Site.Pages ".Params.layout" "==" "gallery" | first 3}}
-                                {{partial "gallery-card.html" .}}
-                            {{end}}
-                        </div>
-                    </div>
                 </main>
                 <footer>
                     {{partial "footer.html" .}}
