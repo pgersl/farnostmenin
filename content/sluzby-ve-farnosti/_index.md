@@ -26,11 +26,8 @@ layout: single
 
 {{< icon-link link="/sluzby-ve-farnosti/poradnik" icon="fa-solid fa-arrow-up-right-from-square" content="Pořadník služeb" target="self" class="icon-link" >}}
 
-### Lektoři
-### Katechetky
+### Katechetka
 - Růžena Aujezdská
-- Mgr. Jaroslava Novotňáková
-- Mgr. Hana Umlášková
 ### Varhaníci
 - Markéta Krejčiříková (tel.: 732 960 079)
 - Jaroslav Šťastný
