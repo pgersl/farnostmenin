@@ -2,7 +2,7 @@
 title: "Pastýřský list biskupa Pavla"
 layout: single
 date: 2023-09-17
-titimg: "https://www.biskupstvi.cz/storage/n/0001.jpg"
+titimg: "/imgs/aktuality/17-9-23.jpg"
 aktualita: true
 ---
 # Pastýřský list biskupa Pavla
@@ -24,3 +24,5 @@ Rád bych vám na závěr popřál, aby nadcházející školní rok byl pro ná
 Žehnám každému z vás.
 
 \+ biskup Pavel
+
+{{< fig src="/imgs/aktuality/17-9-23.jpg" >}}
