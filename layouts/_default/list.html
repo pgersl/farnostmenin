@@ -28,7 +28,7 @@
                     {{if eq .Params.list "links"}}
                         <ul class="list-links">
                             {{range .Pages}}
-                                <li><a href="{{.URL}}">{{.Title}}</a></li>
+                                <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
                             {{end}}
                         </ul>
                     {{end}}
