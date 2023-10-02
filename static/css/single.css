@@ -86,6 +86,21 @@
 .sluzby-skupiny thead tr {
     border-bottom: 2px solid var(--txt-clr);
 }
+#nabozenstvi {
+    border-collapse: collapse;
+    border: solid 2px var(--txt-clr);
+    width: 100%;
+}
+#nabozenstvi th {
+    padding: 1em;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 2px solid var(--txt-clr);
+    color: var(--accent1);
+}
+#nabozenstvi td {
+    padding: .25em 1em;
+}
 
 .figure {
     display: flex;

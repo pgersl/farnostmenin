@@ -2,4 +2,7 @@
 title: "Výuka náboženství"
 layout: single
 ---
-Stránky připravujeme!
+# Výuka náboženství v šk. roce 2023/2024
+
+{{< tables/nabozenstvi >}}
+
