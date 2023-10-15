@@ -3,7 +3,7 @@ title: Kontakt
 layout: single
 ---
 ### Farnost
-**Římskokatolická farnost Měnín**, modřické děkanství, okres Brno-venkov
+**Římskokatolická farnost Měnín**, děkanství šlapanické, okres Brno-venkov
 
 farní kostel sv. Markéty
 
