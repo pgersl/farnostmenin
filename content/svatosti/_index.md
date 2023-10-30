@@ -5,6 +5,8 @@ layout: single
 
 # Svátosti
 
+{{< icon-link class="icon-link" icon="fa-solid fa-arrow-up-right-from-square" content="Informace k Dušičkám" link="/svatosti/dusicky" target="self" >}}
+
 {{< icon-link class="icon-link" icon="fa-solid fa-arrow-up-right-from-square" content="Podmínky udílení svátostí" link="/svatosti/podminky" target="self" >}}
 
 *převzato z [christnet.eu](https://www.christnet.eu/clanky/2824/svatosti_a_svatostiny.url)*
