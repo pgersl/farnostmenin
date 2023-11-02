@@ -1,11 +1,11 @@
 ---
-title: "Slavíme dušičky"
+title: "Památka zesnulých"
 layout: single
 date: 2023-11-02
 titimg: "/imgs/aktuality/2-11-23.jpg"
 aktualita: true
 ---
-# Slavíme dušičky
+# Památka zesnulých
 
 *převzato z [biskupstvi.cz](https://www.biskupstvi.cz/2022-10-26-plnomocne-odpustky-pro-duse-v-ocistci)*
 
