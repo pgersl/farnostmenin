@@ -9,8 +9,6 @@ farní kostel sv. Markéty
 
 **Sídlo**: Městečko 73, 664 57 Měnín
 
-**Tel**. (pevná linka): 547 235 385
-
 **E-mail**: [menin@dieceze.cz](mailto:menin@diezece.cz)
 
 **IČO**: 670 27 695
