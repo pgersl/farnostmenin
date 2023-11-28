@@ -32,6 +32,9 @@
     color: var(--accent2);
     font-weight: bold;
 }
+.special-alert {
+    color: var(--accent3);
+}
 
 @media (max-width:432px) {
     .ohlasky tbody th:last-of-type {

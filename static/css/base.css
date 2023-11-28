@@ -7,9 +7,14 @@
     --bg-clr4: #dfdfdf;
     --bg-clr5: #000000ad;
     --txt-clr: #000000;
+    --accent1: #7b16d3;
+    --accent1-var: #b663ff;
+    /*
     --accent1: #1687d3;
     --accent1-var: #5cb4ee;
-    --accent2: rgb(255, 166, 0); 
+    */
+    --accent2: rgb(255, 166, 0);
+    --accent3: #b662ff; 
 
     --font-size: 18px;
 }
