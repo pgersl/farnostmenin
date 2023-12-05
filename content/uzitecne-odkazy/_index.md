@@ -9,6 +9,7 @@ layout: single
 - [biskupství.cz](https://www.biskupstvi.cz/aktualne) - oficiální stránky brněnské diecéze
 - [stálá zpovědní služba u kapucínů](https://www.biskupstvi.cz/zpovedni-sluzba)
 ### Sousední farnosti
+- [Farnost Blučina](https://www.farnostblucina.cz/)
 - [Farnost Újezd u Brna a Žatčany](https://www.farnostujezdubrna.cz/)
 - [Farnost Moutnice](https://www.farnostmoutnice.cz/)
 - [Farnost Telnice](https://www.farnosttelnice.cz/)
