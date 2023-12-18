@@ -23,7 +23,7 @@
                     {{.Content}}
                     <h1>Nejnovější příspěvky</h1>
                     <div class="list-aktuality">
-                        {{range where .Site.Pages ".Params.aktualita" "==" true | first 2}}
+                        {{range where .Site.Pages ".Params.aktualita" "==" true | first 4}}
                             <div class="list-aktuality-item">
                                 <div class="list-aktuality-item-img">
                                     <img src="{{.Params.titimg}}">
