@@ -7,6 +7,8 @@ aktualita: true
 ---
 # Betlémské světlo u nás v kostele
 
-V sobotu 23.12. 2023 od 16h do 16,45h si můžete vyzvednout betlémské světlo, které do našeho kostela přiveze skautka **Kristýna Bielčíková**.
+Plamínek odebraný z věčného ohně, který hoří v jeskyni pod bazilikou Narození Páně v Betlémě v centrální části Palestiny, představuje symbol míru, lásky, naděje a přátelství. Rozvoz světla zajišťují skauti a skautky z celého světa. Do České republiky ho od roku 1990 z Rakouska dovážejí brněnští skauti.
+
+V sobotu 23.12. 2023 od 16:00 do 16:45 si můžete vyzvednout betlémské světlo, které do našeho kostela přiveze skautka **Kristýna Bielčíková**.
 
 {{< fig src="/imgs/aktuality/18-12-23.jpg" >}}
