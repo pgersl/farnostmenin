@@ -10,4 +10,4 @@ Svátost smíření bývá obvykle půl hodiny přede mší svatou, jindy po dom
 
 {{< icon-link class="icon-link" icon="fa-solid fa-arrow-up-right-from-square" content="Liturgický kalendář" link="https://m.liturgie.cz/misal/" target="blank" >}}
 
-{{< icon-link class="icon-link" icon="fa-solid fa-arrow-up-right-from-square" content="Archiv ohlášek" link="/porad-bohosluzeb/archiv/" target="self" >}}
+**NOVĚ**: {{< icon-link class="icon-link" icon="fa-solid fa-arrow-up-right-from-square" content="stránky farnosti Blučina" link="https://farnostblucina.cz/" target="blank" >}}
