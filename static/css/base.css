@@ -7,17 +7,16 @@
     --bg-clr4: #dfdfdf;
     --bg-clr5: #000000ad;
     --txt-clr: #000000;
-    --accent1: #fcc200;
-    --accent1-var: #ffd700;
+    /*vanoce
     --accent2: rgb(255, 166, 0);
     --accent3: #fcc200; 
-    /*
+    */
+    /*advent
     --accent1: #7b16d3;
     --accent1-var: #b663ff;
-
+    */
     --accent1: #1687d3;
     --accent1-var: #5cb4ee;
-    */
 
     --font-size: 18px;
 }
