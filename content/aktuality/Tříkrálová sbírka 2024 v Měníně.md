@@ -2,7 +2,7 @@
 title: "Tříkrálová sbírka 2024 v Měníně"
 layout: single
 date: 2024-01-15
-titimg: "/imgs/aktuality/15-1-23.jpg"
+titimg: "/imgs/aktuality/15-1-24.jpg"
 aktualita: true
 ---
 
