@@ -10,7 +10,7 @@ aktualita: true
 
 Tříkrálová sbírka v Měníně proběhla v neděli 7. 1. 2024 od 10:00. Podařilo se vybrat celkem 95 857 Kč.
 
-**Všem koledníkům velké díky, všem dárcům pán Bůh zaplať!**
+**Všem koledníkům velké díky, všem dárcům Pán Bůh zaplať!**
 
 {{< fig src="/imgs/aktuality/15-1-24.jpg" >}}
 
