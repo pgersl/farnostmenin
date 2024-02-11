@@ -17,6 +17,8 @@
     */
     --accent1: #1687d3;
     --accent1-var: #5cb4ee;
+    --accent2: rgb(255, 166, 0);
+    --accent3: #fcc200;
 
     --font-size: 18px;
 }
