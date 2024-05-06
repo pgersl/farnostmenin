@@ -7,6 +7,7 @@ layout: single
 - [Radio Proglas](https://www.proglas.cz/) - křesťanská rozhlasová stanice
 - [TV Noe](https://tvnoe.cz/) - televize dobrých zpráv
 - [biskupství.cz](https://www.biskupstvi.cz/aktualne) - oficiální stránky brněnské diecéze
+- [dekanstvi.cz](https://www.dekanstvi.cz/) - přehled pastoračních aktivit v brněnské diecézi
 - [stálá zpovědní služba u kapucínů](https://www.biskupstvi.cz/zpovedni-sluzba)
 ### Sousední farnosti
 - [Farnost Blučina](https://www.farnostblucina.cz/)
