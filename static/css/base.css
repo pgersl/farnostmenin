@@ -126,6 +126,7 @@ nav {
     padding: 1em;
     width: 90vw;
     margin: 0 auto;
+    font-weight: bold;
 }
 nav a {
     text-wrap: nowrap;
