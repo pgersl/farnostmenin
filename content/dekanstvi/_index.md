@@ -18,7 +18,6 @@ Pro další zajímavé a nejen pastorační aktivity v okolí můžete sledovat 
 - [Farnost Židlochovice](https://www.farnostzidlochovice.cz/)
 - [Farnost Telnice](https://www.farnosttelnice.cz/)
 - [Farnost Moutnice](https://farnostmoutnice.cz/)
-- [Farnost Rajhrad](https://www.farnostrajhrad.benediktini.cz/)
 - [Farnost Újezd u Brna a Žatčany](https://www.farnostujezdubrna.cz/)
 - [Farnost u katedrály svatého Petra a Pavla](https://www.katedrala-petrov.cz/)
 
