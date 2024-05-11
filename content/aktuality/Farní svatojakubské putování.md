@@ -1,11 +1,11 @@
 ---
 title: "Farní svatojakubské putování"
 layout: single
+type: news
+show: "V sobotu 9. září jsme se v počtu šesti farníků i s panem farářem vydali po svatojakubské cestě z Rajhradu (u kláštera) směrem do Měnína."
 date: 2023-09-09
 titimg: "/imgs/aktuality/9-9-23_2.JPG"
-aktualita: true
 ---
-# Farní svatojakubské putování
 
 V sobotu 9. září jsme se v počtu šesti farníků i s panem farářem vydali po svatojakubské cestě z Rajhradu (u kláštera) směrem do Měnína. Počasí nám přálo a ranní cesta směrem do Holasic a Vojkovic krásně ubíhala. První zastávka byla v Židlochovicích, kde jsme se ocitli uprostřed židlochovické chasy, která se připravovala na zvaní židlochovických občanů na hody. Chasa nás uchvátila nádherným zrekonstruovaným krojem. Následovalo osvěžení v kavárně v Židlochovicích.
 

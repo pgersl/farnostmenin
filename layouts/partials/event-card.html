@@ -1,0 +1,16 @@
+<div class="event-card">
+    <div class="event-time">
+        <div class="event-time-day">{{.Params.day}}</div>
+        <div class="event-time-month">{{.Params.month}}</div>
+    </div>
+    <div class="event-info">
+        <div class="event-title">{{.Title}}</div>
+        <div class="event-description">{{.Params.show}}</div>
+        <div class="event-links">
+            <span>
+                {{with .Params.titimg}}<a href="{{.}}" target="_blank">Plakát </a>{{end}}
+                {{with .Params.web}}<a href="{{.}}" target="_blank">Web</a>{{end}}
+            </span>
+        </div>
+    </div>
+</div>

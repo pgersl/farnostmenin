@@ -1,6 +1,7 @@
 ---
 title: Farní táborák
 layout: gallery
+type: gallery
 date: 2020-06-25
 imgseries: 2020
 gallery: farni-taborak-2020

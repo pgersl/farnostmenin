@@ -1,5 +1,6 @@
 ---
 title: Dětské představení v Domově sv. Luisy v Rajhradě
+type: gallery
 layout: gallery
 date: 2018-12-12
 imgseries: 2018

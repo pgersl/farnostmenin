@@ -1,6 +1,7 @@
 ---
 title: Farní ples
 layout: gallery
+type: gallery
 date: 2020-01-11
 imgseries: 2020
 gallery: farni-ples-2020

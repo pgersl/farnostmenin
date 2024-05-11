@@ -1,47 +1,112 @@
-.galleries-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.galleries  {
+.page-card {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3em;
+    margin-bottom: 2em;
+}
+.page-card img {
+    max-width: 200px;
+    height: auto;
+    border-radius: .3em;
+}
+.page-card strong a {
+    text-decoration: none;
+}
+
+.pagination-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.pagination-buttons .continue-button.selected {
+    cursor: auto;
+    background-color: var(--accent1);
+    color: var(--bg-clr);
+}
+
+.event-card {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     gap: 2em;
+    margin-bottom: 1em;
+}
+.event-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accent5);
+    color: var(--bg-clr);
+    font-weight: bold;
+    width: 32px;
+    padding: .3em;
+    border-radius: .3em;
+}
+.event-card.future .event-time {
+    background-color: var(--accent4);
+}
+.event-time-day {
+    font-size: var(--h3-size);
+}
+.event-time-month {
+    font-size: var(--h4-size);
+}
+.event-info {
+    display: flex;
+    flex-direction: column;
+    gap: .2em;
+}
+.event-title {
+    font-size: var(--h4-size);
+    font-weight: bold;
+}
+.event-links span {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.gallery-cards {
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    padding-bottom: 1em;
+    gap: 2em;
+    margin-top: 1em;
 }
-.gallery-link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.gallery-card {
     width: 250px;
     height: 300px;
-    box-shadow: 0 0 10px var(--bg-clr3);
-    border-radius: 7px;
-    color: var(--txt-clr);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    border-radius: .3em;
+    box-shadow: var(--shadow);
     text-decoration: none;
 }
-.gallery-link:hover {
-    text-decoration: none;
-    box-shadow: 0 0 20px var(--bg-clr3);
-}
-.gallery-title-img {
-    height: 60%;
+.gallery-titimg {
     width: 100%;
-    padding-bottom: 0;
+    height: 60%;
 }
-.gallery-title-img img {
+.gallery-titimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center center;
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
+    border-top-left-radius: .3em;
+    border-top-right-radius: .3em;
 }
 .gallery-info {
     height: 40%;
@@ -49,55 +114,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: fit-content;
-    max-width: 75%;
-    text-align: center;
-}
-.gallery-title {
-    font-weight: bold;   
-}
-.gallery-date {
-    font-size: 15px;
-    font-style: italic;
-}
-
-.list-aktuality {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    gap: 2em;
-}
-.list-aktuality-item {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 2em;
-    align-items: center;
-    justify-content: flex-start;
-}
-.list-aktuality-item-info {
-    display: flex;
-    flex-direction: column;
-    gap: .4em;
-}
-.list-item-title {
     font-weight: bold;
 }
-.list-item-date {
-    font-size: 15px;
-    font-style: italic;
-}
-.list-aktuality-item-img {
-    width: fit-content;
-}
-.list-aktuality-item-img img {
-    width: 15vw;
-    background-size: cover;
-}
 
-@media (max-width:575px) {
-    .list-aktuality-item-img {
-        display: none;
+@media (max-width:520px) {
+    .page-card {
+        flex-direction: column;
+    }
+    .page-card img {
+        max-width: 100%;
+        max-height: 20vh;
+        width: auto;
+        margin: 0 auto;
     }
 }

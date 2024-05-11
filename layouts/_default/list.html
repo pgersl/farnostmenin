@@ -1,86 +1,95 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    {{partial "head.html" .}}
-    <link rel="stylesheet" href="/css/gallery.css">
+{{define "styles"}}
     <link rel="stylesheet" href="/css/list.css">
-</head>
-<body>
-    {{partial "site-header" .}}
-    <div class="main-content">
-        <div class="content-container">
-            <div id="nav-site-info">
-                <div class="column" id="nav">
-                    {{partial "nav.html" .}}
-                </div>
-                <div class="column" id="site-info">
-                    {{partial "site-info.html" .}}
+{{end}}
+{{define "scripts"}}
+    {{if eq .Params.list "aktuality"}}
+        <script src="/js/pagination.js" defer></script>
+    {{end}}
+    {{if eq .Params.list "gallery"}}
+        <script src="/js/yearination.js" defer></script>
+    {{end}}
+{{end}}
+{{define "main"}}
+    <h1>{{.Title}}</h1>
+    {{if eq .Params.list "aktuality"}}
+        {{range .Pages}}
+            <div class="page-card">
+                <img src="{{.Params.titimg}}">
+                <div>
+                    <strong><a href="{{.RelPermalink}}">{{.Title}}</a></strong>
+                    {{with .Params.show}}<p>{{.}}</p>{{end}}
+                    <a class="continue-button" href="{{.RelPermalink}}">Číst dále &rarr;</a>
                 </div>
             </div>
-            <div class="column" id="page-content">
-                <main>
-                    {{.Content}}
-                    {{if eq .Params.list "full"}}
-                        {{range .Pages}}
-                            {{.Content}}
-                        {{end}}
-                    {{end}}
-                    {{if eq .Params.list "links"}}
-                        <ul class="list-links">
-                            {{range .Pages}}
-                                <li><a href="{{.RelPermalink}}">{{.Title}}</a></li>
-                            {{end}}
-                        </ul>
-                    {{end}}
-                    {{if eq .Params.list "aktuality"}}
-                        <div class="list-aktuality">
-                            {{range .Pages}}
-                                <div class="list-aktuality-item">
-                                    <div class="list-aktuality-item-img">
-                                        <img src="{{.Params.titimg}}">
-                                    </div>
-                                    <div class="list-aktuality-item-info">
-                                        <a class="list-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
-                                        <div class="list-item-date">{{.Date | time.Format "2. 1. 2006"}}</div>
-                                    </div>
-                                </div>
-                            {{end}}
-                        </div>
-                    {{end}}
-                    {{if eq .Params.list "gallery"}}
-                        <div class="galleries-container">
-                            <h4>2023</h4>
-                            <div class="galleries">
-                                {{range where .Pages ".Params.imgseries" "==" 2023}}
-                                    {{partial "gallery-card.html" .}}
-                                {{end}}
-                            </div>
-                            <h4>2020</h4>
-                            <div class="galleries">
-                                {{range where .Pages ".Params.imgseries" "==" 2020}}
-                                    {{partial "gallery-card.html" .}}
-                                {{end}}
-                            </div>
-                            <h4>2019</h4>
-                            <div class="galleries">
-                                {{range where .Pages ".Params.imgseries" "==" 2019}}
-                                    {{partial "gallery-card.html" .}}
-                                {{end}}
-                            </div>
-                            <h4>2018</h4>
-                            <div class="galleries">
-                                {{range where .Pages ".Params.imgseries" "==" 2018}}
-                                    {{partial "gallery-card.html" .}}
-                                {{end}}
-                            </div>
-                        </div>
-                    {{end}}
-                </main>
-                <footer>
-                    {{partial "footer.html" .}}
-                </footer>
+        {{end}}
+        <div class="pagination-buttons"></div>
+    {{end}}
+    {{if eq .Params.list "udalosti"}}
+        {{$now := now}}
+        {{$past := where .Pages "Date" "<" $now}}
+        {{$future := where .Pages "Date" ">" $now}}
+        <h2>Nadcházející události</h2>
+        {{range $future.Reverse}}
+            <div class="event-card future">
+                <div class="event-time">
+                    <div class="event-time-day">{{.Params.day}}</div>
+                    <div class="event-time-month">{{.Params.month}}</div>
+                </div>
+                <div class="event-info">
+                    <div class="event-title">{{.Title}}</div>
+                    <div class="event-description">{{.Params.show}}</div>
+                    <div class="event-links">
+                        <span>
+                            {{with .Params.titimg}}<a href="{{.}}" target="_blank">Plakát </a>{{end}}
+                            {{with .Params.web}}<a href="{{.}}" target="_blank">Web</a>{{end}}
+                        </span>
+                    </div>
+                </div>
             </div>
+        {{end}}
+        <h2>Proběhlé události</h2>
+        {{range $past}}
+            <div class="event-card">
+                <div class="event-time">
+                    <div class="event-time-day">{{.Params.day}}</div>
+                    <div class="event-time-month">{{.Params.month}}</div>
+                </div>
+                <div class="event-info">
+                    <div class="event-title">{{.Title}}</div>
+                    <div class="event-description">{{.Params.show}}</div>
+                    <div class="event-links">
+                        <span>
+                            {{with .Params.titimg}}<a href="{{.}}" target="_blank">Plakát </a>{{end}}
+                            {{with .Params.web}}<a href="{{.}}" target="_blank">Web</a>{{end}}
+                        </span>
+                    </div>
+                </div>
+            </div>
+        {{end}}
+    {{end}}
+    {{if eq .Params.list "gallery"}}
+        <div class="pagination-buttons">
+            <button class="continue-button" id="galleries-2023">2023</button>
+            <button class="continue-button" id="galleries-2020">2020</button>
+            <button class="continue-button" id="galleries-2019">2019</button>
+            <button class="continue-button" id="galleries-2018">2018</button>
         </div>
-    </div>
-</body>
-</html>
+        <div class="gallery-cards">
+            {{range .Pages}}
+                <a class="gallery-card imgseries-{{.Params.imgseries}}" href="{{.RelPermalink}}">
+                    <div class="gallery-titimg">
+                        <img src="{{.Params.titimg}}">
+                    </div>
+                    <div class="gallery-info">
+                        <div class="gallery-title">
+                            {{.Title}}
+                        </div>
+                        <div class="gallery-date">
+                            {{.Date | time.Format "2. 1. 2006"}}
+                        </div>
+                    </div>
+                </a>
+            {{end}}
+        </div>
+    {{end}}
+{{end}}

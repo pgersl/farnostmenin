@@ -1,6 +1,5 @@
 ---
-title: "Fotogalerie"
+title: "Galerie"
 layout: list
 list: gallery
 ---
-# Galerie

@@ -1,11 +1,11 @@
 ---
 title: "Teď by to šlo!"
 layout: single
+type: news
 date: 2024-04-21
-titimg: "/imgs/aktuality/17-4-24_2.jpg"
-aktualita: true
+show: "Přidejte se k více než 8 500 donátorům naší diecéze a svým darem podpořte kněze a zároveň svoji farnost, která získá bonus za každého nového donátora."
+titimg: "/imgs/aktuality/17-4-24_4.jpeg"
 ---
-# Teď by to šlo!
 
 Vážení farníci,
 

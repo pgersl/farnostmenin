@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --bg-clr: #FFFFFF;
+    --bg-clr2: #FAFAfA;
+    --bg-clr3: #00000026;
+    --bg-clr4: #e0e0e0;
+    --bg-clr5: #000000ad;
+    --txt-clr: #000000;
+
+    --font-size: 14px;
+    --huge-size: 40px;
+    --tiny-size: 12px;
+    --h1-size: 32px;
+    --h2-size: 27px;
+    --h3-size: 23px;
+    --h4-size: 18px;
+
+    --shadow: 0px 0px 10px var(--bg-clr3);
+    --transition: all 100ms;
+
+    --accent1: #1687d3;
+    --accent2: #5cb4ee;
+    --accent3: #385480;
+    --accent4: #00A878;
+    --accent5: #ff9706;
+
+    /*purple
+    --accent1: #7b16d3;
+    --accent1-var: #b663ff;
+    --accent2: #7b16d3;
+    */
+}

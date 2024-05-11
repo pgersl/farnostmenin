@@ -1,121 +1,23 @@
-.ohlasky, .ohlasky-new {
-    border-collapse: collapse;
-    text-align: left;
-    width: 100%;
-    margin-bottom: 1em;
-}
-.ohlasky tbody, .ohlasky-new tbody {
-    border-bottom: solid 1px var(--txt-clr)
-}
-.ohlasky tbody:last-of-type, .ohlasky-new tbody:last-of-type {
-    border-bottom: none;
-}
-.ohlasky th, .ohlasky-new th {
-    font-weight: bold;
-    padding: 1em 1em 1em 0;
-}
-.ohlasky tbody tr th:nth-of-type(1), .ohlasky-new tbody tr th:nth-of-type(1) {
-    text-transform: uppercase;
-}
-.ohlasky td, .ohlasky-new td {
-    padding: 0 2em .5em 0;
-}
-.ohlasky tbody tr td:nth-of-type(2), .ohlasky-new tbody tr td:nth-of-type(1) {
-    font-weight: bold;
-}
-.ohlasky tbody tr td:nth-of-type(3), .ohlasky-new tbody tr td:nth-of-type(2) {
-    font-style: italic;
-    width: 50%;
-}
-.ohlasky tr.ohlasky-alert, .ohlasky-new tr.ohlasky-alert {
-    color: var(--accent2);
-    font-weight: bold;
-}
-.special-alert {
-    color: var(--accent3);
+#main-content img {
+    max-width: 500px;
+    max-height: 50vw;
+    width: auto;
+    margin: 2em auto;
+    display: block;
+    border-radius: .3em;
 }
 
-@media (max-width:432px) {
-    .ohlasky tbody th:last-of-type {
-        display: none;
-    } 
-    .ohlasky tbody td:last-of-type {
-        display: none;
-    }
-}
+/* TABLES */
 
-.sluzby {
-    border-collapse: collapse;
-    border: solid 2px var(--txt-clr);
-    width: fit-content;
-}
-.sluzby th {
-    padding: 1em 2em;
-    font-weight: bold;
-    text-align: left;
-}
-.sluzby td {
-    padding: .5em 2em;
-}
-.sluzby tbody tr:last-of-type td {
-    padding-bottom: 1em;
-}
-.sluzby tbody tr {
-    border-bottom: 1px solid var(--txt-clr);
-}
-.sluzby thead tr {
-    border-bottom: 2px solid var(--txt-clr);
-}
-.sluzby-skupiny {
-    width: 100%;
-    border-collapse: collapse;
+table {
     border: 2px solid var(--txt-clr);
-}
-.sluzby-skupiny th {
-    padding: 1em 2em;
-    text-align: left;
-    font-weight: bold;
-}
-.sluzby-skupiny td {
-    padding: .5em 2em;
-}
-.sluzby-skupiny tbody tr:last-of-type td {
-    padding-bottom: 1em;
-}
-.sluzby-skupiny tbody tr {
-    border-bottom: 1px solid var(--txt-clr);
-}
-.sluzby-skupiny thead tr {
-    border-bottom: 2px solid var(--txt-clr);
-}
-#nabozenstvi {
     border-collapse: collapse;
-    border: solid 2px var(--txt-clr);
-    width: 100%;
+    font-size: var(--font-size);
 }
-#nabozenstvi th {
-    padding: 1em;
-    font-weight: bold;
-    text-align: left;
-    border-bottom: 2px solid var(--txt-clr);
-    border-right: 1px solid var(--txt-clr);
+td, th {
+    border: 1px solid var(--txt-clr);
+    padding: .6em;
+}
+th {
     color: var(--accent1);
-}
-#nabozenstvi td {
-    padding: .25em 1em;
-    border-right: 1px solid var(--txt-clr);
-}
-#nabozenstvi tbody {
-    border-bottom: 1px solid var(--txt-clr);
-}
-
-.figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-}
-.figure img {
-    width: 100%;
 }

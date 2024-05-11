@@ -1,11 +1,10 @@
 ---
 title: "Setkání prvokomunikantů 2023"
 layout: single
+type: event
 date: 2023-10-05
 titimg: "/imgs/aktuality/23-8-23_3.jpg"
-aktualita: true
 ---
-# Setkání prvokomunikantů 2023
 
 Ve čtvrtek 5. října 2023 jsme přijali pozvání na diecézní setkání prvokomunikantů na Petrově Prvokomunikanti jsou děti, které poprvé přistoupily ke svatému přijímání. Z měnínské farnosti se účastnili Jirka, Marek, Terezka, Vašík, Šimon a Vojta.
 

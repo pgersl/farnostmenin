@@ -1,6 +1,7 @@
 ---
 title: Markétské hody
 layout: gallery
+type: gallery
 date: 2018-07-15
 imgseries: 2018
 gallery: marketske-hody-2018

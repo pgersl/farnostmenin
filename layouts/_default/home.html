@@ -1,57 +1,29 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    {{partial "head.html" .}}
+{{define "styles"}}
     <link rel="stylesheet" href="/css/home.css">
-    <link rel="stylesheet" href="/css/single.css">
-    <link rel="stylesheet" href="/css/list.css">
-</head>
-<body>
-    {{partial "site-header.html" .}}
-    <div class="main-content">
-        <div class="content-container">
-            <div id="nav-site-info">
-                <div class="column" id="nav">
-                    {{partial "nav.html" .}}
-                </div>
-                <div class="column" id="site-info">
-                    {{partial "site-info.html" .}}
+{{end}}
+{{define "main"}}
+    {{$pages := where .Site.Pages ".Params.type" "news"}}
+    {{with index $pages 0}}
+        <section class="hero-section">
+            <div class="hero-news-card">
+                <img src="{{.Params.titimg}}">
+                <div>
+                    <h2><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
+                    <p>{{.Params.show}}</p>
+                    <a class="continue-button" href="{{.RelPermalink}}">Číst dále &rarr;</a>
                 </div>
             </div>
-            <div class="column" id="page-content">
-                <main id="home-main">
-                    {{.Content}}
-                    <h1>Nejnovější příspěvky</h1>
-                    <div class="list-aktuality">
-                        {{range where .Site.Pages ".Params.aktualita" "==" true | first 4}}
-                            <div class="list-aktuality-item">
-                                <div class="list-aktuality-item-img">
-                                    <img src="{{.Params.titimg}}">
-                                </div>
-                                <div class="list-aktuality-item-info">
-                                    <a class="list-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
-                                    <div class="list-item-date">{{.Date | time.Format "2. 1. 2006"}}</div>
-                                </div>
-                            </div>
-                        {{end}}
-                        {{range where .Site.Pages ".Params.layout" "==" "gallery" | first 1}}
-                            <div class="list-aktuality-item">
-                                <div class="list-aktuality-item-img">
-                                    <img src="{{.Params.titimg}}">
-                                </div>
-                                <div class="list-aktuality-item-info">
-                                    <a class="list-item-title" href="{{.RelPermalink}}">{{.Title}}</a>
-                                    <div class="list-item-date">{{.Date | time.Format "2. 1. 2006"}}</div>
-                                </div>
-                            </div>
-                        {{end}}
-                    </div> 
-                </main>
-                <footer>
-                    {{partial "footer.html" .}}
-                </footer>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+        </section>
+    {{end}}
+    <section class="row-section">
+        {{with index $pages 1}}
+        {{partial "news-card.html" .}}
+        {{end}}
+        {{with index $pages 2}}
+        {{partial "news-card.html" .}}
+        {{end}}
+        {{with index $pages 3}}
+        {{partial "news-card.html" .}}
+        {{end}}
+    </section>
+{{end}}

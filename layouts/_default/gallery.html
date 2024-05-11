@@ -1,43 +1,22 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    {{partial "head.html" .}}
+{{define "styles"}}
     <link rel="stylesheet" href="/css/gallery.css">
-    <script type="text/javascript" src="/js/gallery.js" defer></script>
-</head>
-<body>
-    {{partial "site-header.html" .}}
-    <div class="main-content">
-        <div class="content-container">
-            <div id="nav-site-info">
-                <div class="column" id="nav">
-                    {{partial "nav.html" .}}
-                </div>
-                <div class="column" id="site-info">
-                    {{partial "site-info.html" .}}
-                </div>
+{{end}}
+{{define "scripts"}}
+    <script src="/js/gallery.js" defer></script>
+{{end}}
+{{define "main"}}
+    <h1>{{.Title}}</h1>
+    <p class="gallery-date">{{.Date | time.Format "2. 1. 2006"}}</p>
+    {{.Content}}
+    <div class="gallery">
+        {{$imgsPath := (printf "imgs/gallery/%s" .Params.gallery )}}
+        {{$imgs := readDir (printf "static/%s" $imgsPath)}}
+        {{range $index, $img := $imgs}}
+            {{$imgURL := (printf "/%s/%s" $imgsPath $img.Name)}}
+            <div class="gallery-item">
+                <img src="{{$imgURL}}">
             </div>
-            <div class="column" id="page-content">
-                <main>
-                    <h1>{{.Title}}</h1>
-                    <p class="gallery-date">{{.Date | time.Format "2. 1. 2006"}}</p>
-                    {{.Content}}
-                    <div class="gallery">
-                        {{$imgsPath := (printf "imgs/gallery/%s" .Params.gallery )}}
-                        {{$imgs := readDir (printf "static/%s" $imgsPath)}}
-                        {{range $index, $img := $imgs}}
-                            {{$imgURL := (printf "/%s/%s" $imgsPath $img.Name)}}
-                            <div class="gallery-item">
-                                <img src="{{$imgURL}}">
-                            </div>
-                        {{end}}
-                    </div>
-                </main>
-                <footer>
-                    {{partial "footer.html" .}}
-                </footer>
-            </div>
-        </div>
+        {{end}}
     </div>
     <dialog id="gallery-view">
         <div class="gallery-view">
@@ -63,5 +42,4 @@
             </div>
         </div>
     </dialog>
-</body>
-</html>
+{{end}}

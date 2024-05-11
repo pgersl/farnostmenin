@@ -1,11 +1,11 @@
 ---
 title: "Pastýřský list pro neděli před začátkem velkého postu"
 layout: single
+type: news
+show: "Na Popeleční středu začneme čtyřicetidenní přípravu na Velikonoce, vstoupíme do postní doby. Je to veliká příležitost pro nás i pro celý svět."
 date: 2024-02-11
 titimg: "/imgs/aktuality/15-2-24_2.jpg"
-aktualita: true
 ---
-# Pastýřský list pro neděli před začátkem velkého postu
 
 *převzato z [cbk.cirkev.cz](https://cbk.cirkev.cz/novinky/pastyrsky-list-ceskych-a-moravskych-biskupu-k-postni-dobe-2024_32616)*
 

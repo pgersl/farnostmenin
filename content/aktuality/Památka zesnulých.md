@@ -1,11 +1,11 @@
 ---
 title: "Památka zesnulých"
 layout: single
+type: news
+show: "Památka všech zemřelých, lidově označovaná jako Dušičky, je vzpomínkou na zesnulé, kteří ještě nejsou dokonale připraveni ke vstupu do plného společenství s Bohem a jsou ve fázi očišťování."
 date: 2023-11-02
 titimg: "/imgs/aktuality/2-11-23.jpg"
-aktualita: true
 ---
-# Památka zesnulých
 
 *převzato z [biskupstvi.cz](https://www.biskupstvi.cz/2022-10-26-plnomocne-odpustky-pro-duse-v-ocistci)*
 

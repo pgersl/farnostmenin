@@ -1,0 +1,11 @@
+<div class="mass">
+    <div class="mass-left">
+        <div class="mass-left-day">{{.Get "day"}}</div>
+        <div class="mass-left-month">{{.Get "month"}}</div>
+    </div>
+    <div class="mass-right">
+        <strong>{{.Get "text"}}</strong><br>
+        {{.Get "time"}}{{with .Get "reading"}} <a href="{{.}}" target="_blank"><i class="fa-solid fa-book-bible"></i></a>{{end}}<br>
+        {{with .Get "intention"}}<em>{{.}}</em>{{end}}
+    </div>
+</div>

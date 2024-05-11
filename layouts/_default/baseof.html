@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+    <link rel="manifest" href="/fav/site.webmanifest">
+    
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/base.css">
+    {{block "styles" .}}{{end}}
+    
+    <script data-goatcounter="https://farnostmenin.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    <script src="https://kit.fontawesome.com/9ab7bfa7fc.js" crossorigin="anonymous"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v19.0" nonce="uPlIl3Io"></script>
+
+    <script type="text/javascript" src="/js/events.js" defer></script>
+    <script type="text/javascript" src="/js/donator.js" defer></script>
+    {{block "scripts" .}}{{end}}
+    
+    <title>{{.Title}}</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-text">Farnost Měnín</div>
+        <nav>
+            {{range .Site.Menus.main}}
+                <a href="{{.URL}}" target="_self">{{.Name}}</a>
+            {{end}}
+        </nav>
+    </header>
+    <div class="flex-container">
+        <aside>
+            <div class="aside-item">
+                <div class="aside-item-content" id="masses">
+                    {{with .Site.GetPage "porad-bohosluzeb.md"}}
+                        <strong>{{.Title}}</strong>
+                        {{.Content}}
+                    {{end}}
+                </div>
+            </div>
+            <div class="aside-item">
+                <div class="aside-item-content" id="events">
+                    <strong>Nadcházející události</strong>
+                    {{$events := where .Site.Pages ".Params.type" "event" | first 3}}
+                    {{$now := now}}
+                    {{$futureEvents := where $events "Date" ">" $now}}
+                    {{range $futureEvents.Reverse}}
+                        <div class="event">
+                            <div class="event-left">
+                                <div class="event-left-day">{{.Params.day}}</div>
+                                <div class="event-left-month">{{.Params.month}}</div>
+                            </div>
+                            <div class="event-right">
+                                <strong>{{.Title}}</strong><br>
+                                <span>
+                                    {{with .Params.titimg}}<a href="{{.}}" target="_blank">Plakát </a>{{end}}
+                                    {{with .Params.web}}<a href="{{.}}" target="_blank">Web</a>{{end}}
+                                </span>
+                            </div>
+                        </div>
+                    {{end}}
+                    <p id="no-events">Žádné události</p>
+                </div>
+            </div>
+            <div class="aside-item">
+                <div class="aside-item-content" id="gallery">
+                    {{range where .Site.Pages ".Params.type" "gallery" | first 1}}
+                        <strong>{{.Title}}</strong>
+                        <img src="{{.Params.titimg}}">
+                        <a class="continue-button" href="{{.RelPermalink}}">Galerie &rarr;</a>
+                    {{end}}
+                </div>
+            </div>
+        </aside>
+        <main>
+            <section id="main-content" class="main-section">
+                <div class="main-section-content">
+                    {{block "main" .}}{{end}}
+                </div>
+            </section>
+            <section id="donator" class="main-section">
+                <div class="main-section-content">
+                    <img id="donator-banner" src="https://donator.cz/SVG/plugin1366banner/1505.svg">
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-item">
+                <h4>ŘKF Měnín</h4>
+                Městečko 73, 664 57 Měnín<br>
+                e-mail: <a href="mailto:menin@dieceze.cz">menin@dieceze.cz</a><br>
+                IČO: 670 27 695<br>
+                datová schránka: 4r4vcg3<br>
+                č. ú.: 2141899389/0800<br><br>
+                Mgr. et Bc. Jaroslav Trávníček<br>
+                <em>excurrendo administrátor</em><br>
+                +420 777 259 336
+            </div>
+            <div class="footer-item">
+                <h4>Navigace</h4>
+                {{range .Site.Menus.main}}
+                    <a href="{{.URL}}" target="_self">{{.Name}}</a><br>
+                {{end}}
+            </div>
+            <div class="footer-item">
+                <h4>Důležité odkazy</h4>
+                <a href="https://www.cirkev.cz/" target="_blank">církev.cz</a><br>
+                <a href="https://www.vira.cz/" target="_blank">víra.cz</a><br>
+                <a href="https://www.proglas.cz/" target="_blank">Radio Proglas</a><br>
+                <a href="https://tvnoe.cz/" target="_blank">TV Noe</a><br>
+                <a href="https://www.biskupstvi.cz/aktualne" target="_blank">biskupství.cz</a><br>
+                <a href="https://dekanstvi.cz/" target="_blank">děkanství.cz</a><br>
+                <a href="https://donator.cz/projektpuls/1505" target="_blank">donátor.cz</a><br>
+                <a href="http://www.concordia.cz/www/index.php" target="_blank">Concordia</a><br>
+                <a href="https://www.pohrby.eu/" target="_blank">pohřby.eu</a>
+            </div>
+            <div class="footer-item">
+                <h4>Facebook</h4>
+                <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100064619031559" data-tabs="" data-width="280" data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/profile.php?id=100064619031559" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100064619031559">Farnost Měnín</a></blockquote></div>
+            </div>
+        </div>
+        <div class="footer-copy">
+            &copy;2023&ndash;2024 Římskokatolická farnost Měnín, děkanství šlapanické<br>
+            Web vytvořil <a href="https://pgersl.xyz/" target="_blank">Petr Geršl</a>
+        </div>
+    </footer>
+</body>
+</html>

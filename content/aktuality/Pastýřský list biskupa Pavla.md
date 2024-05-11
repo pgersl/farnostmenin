@@ -1,11 +1,10 @@
 ---
 title: "Pastýřský list biskupa Pavla"
 layout: single
+type: news
 date: 2023-09-17
 titimg: "/imgs/aktuality/17-9-23.jpg"
-aktualita: true
 ---
-# Pastýřský list biskupa Pavla
 
 *převzato z [biskupstvi.cz](https://www.biskupstvi.cz/2023-09-17-pastyrsky-list-biskupa-pavla)*
 

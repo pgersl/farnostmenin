@@ -1,11 +1,12 @@
 ---
 title: "Kurz Katecheta 2023/2024"
 layout: single
+type: news
+show: "urz Katecheta je určen těm, kdo chtějí v budoucnu po dohodě s duchovním správcem pomáhat ve farní katechezi dětí či v katechezi jiné věkové skupiny."
 date: 2023-08-23
 titimg: "/imgs/aktuality/23-8-23_2.jpg"
-aktualita: true
 ---
-# Kurz Katecheta 2023/2024
+
 Kurz Katecheta je určen těm, kdo chtějí v budoucnu po dohodě s duchovním správcem pomáhat ve farní katechezi dětí či v katechezi jiné věkové skupiny. Pro účast v něm je potřeba řádné absolvování Teologického kurzu.
 
 Kurz Katecheta obsahuje tyto předměty: katechetika, didaktika, pedagogika, psychologie, katechetické metody, pastorálka, organizace katecheze v diecézi a spirituální teologie. Katechetické metody jsou vyučovány formou praktických workshopů a seminářů.

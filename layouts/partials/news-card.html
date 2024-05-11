@@ -1,0 +1,8 @@
+<div class="news-card">
+    <div>
+        <img src="{{.Params.titimg}}">
+        <strong><a href="{{.RelPermalink}}">{{.Title}}</a></strong>
+        {{with .Params.show}}<p>{{.}}</p>{{end}}
+    </div>
+    <a class="continue-button" href="{{.RelPermalink}}">Číst dále &rarr;</a>
+</div>

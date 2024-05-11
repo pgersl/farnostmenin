@@ -1,36 +1,7 @@
-<!DOCTYPE html>
-<html lang="cs">
-<head>
-    {{partial "head.html" .}}
+{{define "styles"}}
     <link rel="stylesheet" href="/css/single.css">
-</head>
-<body>
-    {{partial "site-header.html" .}}
-    <div class="main-content">
-        <div class="content-container">
-            <div id="nav-site-info">
-                <div class="column" id="nav">
-                    {{partial "nav.html" .}}
-                </div>
-                <div class="column" id="site-info">
-                    {{partial "site-info.html" .}}
-                </div>
-            </div>
-            <div class="column" id="page-content">
-                <main>
-                    {{.Content}}
-                    {{if .Params.ohlasky}}
-                        {{range where .Site.Pages ".Params.ohlaska" "==" true | first 1}}
-                            {{.Content}}
-                        {{end}}
-                        <a class="icon-link" href="/porad-bohosluzeb/archiv/">Archiv ohlášek <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                    {{end}}
-                </main>
-                <footer>
-                    {{partial "footer.html" .}}
-                </footer>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+{{end}}
+{{define "main"}}
+    <h1>{{.Title}}</h1>
+    {{.Content}}
+{{end}}
