@@ -20,7 +20,7 @@ Pro další zajímavé a nejen pastorační aktivity v okolí můžete sledovat 
 - [Farnost Moutnice](https://farnostmoutnice.cz/)
 - [Farnost Rajhrad](https://www.farnostrajhrad.benediktini.cz/)
 - [Farnost Újezd u Brna a Žatčany](https://www.farnostujezdubrna.cz/)
-- [Farnost u katedrály svatého Petra a Pavla](http://www.katedrala-petrov.cz/index.php/cz/)
+- [Farnost u katedrály svatého Petra a Pavla](https://www.katedrala-petrov.cz/)
 
 **Sousední obce**
 - [Měnín](https://www.menin.cz/)
