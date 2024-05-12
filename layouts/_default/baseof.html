@@ -19,7 +19,6 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/cs_CZ/sdk.js#xfbml=1&version=v19.0" nonce="uPlIl3Io"></script>
 
     <script type="text/javascript" src="/js/events.js" defer></script>
-    <script type="text/javascript" src="/js/donator.js" defer></script>
     {{block "scripts" .}}{{end}}
     
     <title>{{.Title}}</title>
@@ -84,9 +83,10 @@
                     {{block "main" .}}{{end}}
                 </div>
             </section>
-            <section id="donator" class="main-section">
-                <div class="main-section-content">
-                    <img id="donator-banner" src="https://donator.cz/SVG/plugin1366banner/1505.svg">
+            <section class="main-section">
+                <div class="main-section-content" id="donator">
+                    <img id="donator-long" src="https://donator.cz/SVG/plugin1366banner/1505.svg">
+                    <img id="donator-small" src="https://donator.cz/SVG/plugin1367banner/1505.svg">
                 </div>
             </section>
         </main>
