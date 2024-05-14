@@ -34,6 +34,6 @@ intention="Za rodinu Kopřivovu, Jana a Annu, † rodiče a Libuši Pavelkovu"
 
 **Farní oznámení**
 
-Farní pouť bude v sobotu 15. června 2024. Tentokrát pojedeme do Číhošti a na Sázavský klášter. Detaily pouti jsou na nástěnce a webu farnosti. Přihlášky jsou vzadu v kostele.
+Farní pouť bude v sobotu 15. června 2024. Tentokrát pojedeme do Číhoště a na Sázavský klášter. Detaily pouti jsou na nástěnce a webu farnosti. Přihlášky jsou vzadu v kostele.
 
 Po mši se modlíme na 4 úmysly: za Ukrajinu, za dary DS pro nového Brněnského biskupa, za nová kněžská a řeholní povolání a za přírodu. Tyto úmysly spojíme do jedné společné modlitby Otče náš a Zdrávas Maria.
