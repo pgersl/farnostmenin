@@ -4,30 +4,30 @@ type: unlisted
 ---
 
 {{< mass 
-day="12" 
-month="kvě" 
-text="7. neděle velikonoční" 
-reading="https://m.liturgie.cz/misal/05velikonoce/07_00.htm" 
-time="9:00 mše sv." 
-intention="Za rodinu Čermákovu, syny Zdeňka, Miloše a Václava, rodinu Konečnou a duše v očistci" 
->}}
-
-{{< mass 
-day="16" 
-month="kvě" 
-text="Svátek sv. Jana Nepomuckého, kněze a mučedníka, hlavního patrona Čech" 
-reading="https://m.liturgie.cz/misal/05velikonoce/07_04.htm" 
-time="17:30 mše sv." 
-intention="Za farníky" 
->}}
-
-{{< mass 
 day="19" 
 month="kvě" 
 text="Slavnost Seslání Ducha Svatého" 
 reading="https://m.liturgie.cz/misal/05velikonoce/07_07.htm" 
 time="9:00 mše sv." 
 intention="Za rodinu Kopřivovu, Jana a Annu, † rodiče a Libuši Pavelkovu" 
+>}}
+
+{{< mass 
+day="23" 
+month="kvě" 
+text="Svátek Ježíše Krista, nejvyššího a věčného kněze" 
+reading="https://m.liturgie.cz/misal/08sanctoral/JK_knez.htm" 
+time="17:30 mše sv." 
+intention="Za vysokoškolské studenty" 
+>}}
+
+{{< mass 
+day="26" 
+month="kvě" 
+text="Slavnost Nejsvětější Trojice" 
+reading="https://m.liturgie.cz/misal/06mezidobi/NST.htm" 
+time="9:00 mše sv." 
+intention="Za Miroslava Kunderu" 
 >}}
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" icon="fa-solid fa-arrow-up-right-from-square" content="Rozpis čtení" target="blank" class="icon-link" >}}
