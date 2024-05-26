@@ -7,7 +7,7 @@
     flex: 1;
 }
 .news-card p {
-    margin-bottom: 2em;
+    margin-bottom: 0;
 }
 .news-card img {
     max-height: 100px;
