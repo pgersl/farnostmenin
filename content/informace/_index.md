@@ -15,7 +15,7 @@ type: single
     - Antonín Křivánek (tel.: 607 510 126)
 - **úklid kostela**
 
-{{< icon-link link="https://docs.google.com/spreadsheets/d/1FYu2OWpfDJdbs4ll4hFEOHe0QIxj703I/edit?usp=drive_link&ouid=106535457390046012505&rtpof=true&sd=true" icon="fa-solid fa-arrow-up-right-from-square" content="Pořadník služeb" target="blank" class="icon-link" >}}
+{{< icon-link link="https://docs.google.com/spreadsheets/d/1FYu2OWpfDJdbs4ll4hFEOHe0QIxj703I/edit#gid=597759443" icon="fa-solid fa-arrow-up-right-from-square" content="Pořadník služeb" target="blank" class="icon-link" >}}
 
 - **katechetka**
     - Růžena Aujezdská
