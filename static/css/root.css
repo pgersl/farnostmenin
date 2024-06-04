@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
 
 :root {
     --bg-clr: #FFFFFF;
@@ -24,7 +24,6 @@
     --accent2: #5cb4ee;
     --accent3: #021420;
     --accent4: #00A878;
-    --accent5: #ff9706;
 
     /*purple
     --accent1: #7b16d3;

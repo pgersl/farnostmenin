@@ -4,30 +4,30 @@ type: unlisted
 ---
 
 {{< mass 
-day="26" 
-month="kvě" 
-text="Slavnost Nejsvětější Trojice" 
-reading="https://m.liturgie.cz/misal/06mezidobi/NST.htm" 
-time="9:00 mše sv." 
-intention="Za Miroslava Kunderu" 
->}}
-
-{{< mass 
-day="30" 
-month="kvě" 
-text="Památka sv. Zdislavy" 
-reading="https://m.liturgie.cz/misal/06mezidobi/08_04.htm" 
-time="17:30 mše sv." 
-intention="Za Josefa Novotného, rodiče, bratra a švagra" 
->}}
-
-{{< mass 
 day="2" 
 month="čvn" 
 text="Slavnost Těla a krve Páně – Boží tělo" 
 reading="https://m.liturgie.cz/misal/06mezidobi/Tela_Krve.htm" 
 time="9:00 mše sv." 
 intention="Za živou a † rodinu Sládečkovu a Lenku Morávkovu" 
+>}}
+
+{{< mass 
+day="6" 
+month="čvn" 
+text="Čtvrtek 9. týdne v mezidobí" 
+reading="https://m.liturgie.cz/misal/06mezidobi/08_04.htm" 
+time="17:30 mše sv." 
+intention="Za farníky" 
+>}}
+
+{{< mass 
+day="9" 
+month="čvn" 
+text="10. Neděle v mezidobí" 
+reading="https://m.liturgie.cz/misal/06mezidobi/Tela_Krve.htm" 
+time="9:00 mše sv." 
+intention="Za Vojtěcha a Josefu Lízalovy a † rodiče" 
 >}}
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" icon="fa-solid fa-arrow-up-right-from-square" content="Rozpis čtení" target="blank" class="icon-link" >}}
