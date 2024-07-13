@@ -186,9 +186,6 @@ aside {
 #masses {
     font-size: var(--tiny-size);
 }
-#masses p {
-    margin-bottom: .6em;
-}
 .mass, .event {
     display: flex;
     flex-direction: row;
@@ -219,6 +216,13 @@ aside {
 #masses .continue-button {
     font-size: var(--tiny-size);
     margin: 1em 0;
+}
+.mass-right p {
+    margin-bottom: 0em;
+}
+.mass.time-alert #time {
+    font-weight: bold;
+    color: var(--accent5);
 }
 
 #gallery img {

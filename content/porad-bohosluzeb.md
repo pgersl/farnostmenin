@@ -27,7 +27,8 @@ month="čvc"
 text="15. Neděle v mezidobí" 
 reading="https://m.liturgie.cz/misal/06mezidobi/15_00.htm" 
 time="10:30 mše sv." 
-intention="Za farníky a všechny obyvatele Měnína" 
+intention="Za farníky a všechny obyvatele Měnína"
+class="time-alert" 
 >}}
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" icon="fa-solid fa-arrow-up-right-from-square" content="Rozpis čtení" target="blank" class="icon-link" >}}
