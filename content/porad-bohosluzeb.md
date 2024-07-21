@@ -4,25 +4,6 @@ type: unlisted
 ---
 
 {{< mass 
-day="14" 
-month="čvc" 
-text="15. Neděle v mezidobí" 
-reading="https://m.liturgie.cz/misal/06mezidobi/15_00.htm" 
-time="10:30 mše sv." 
-intention="Za farníky a všechny obyvatele Měnína"
-class="time-alert" 
->}}
-
-{{< mass 
-day="18" 
-month="čvc" 
-text="Čtvrtek 15. týdne v mezidobí" 
-reading="https://m.liturgie.cz/misal/06mezidobi/15_04.htm" 
-time="17:30 mše sv." 
-intention="Na poděkování za Boží odpuštění, milosrdenství a Boží lásku" 
->}}
-
-{{< mass 
 day="21" 
 month="čvc" 
 text="16. Neděle v mezidobí" 
@@ -31,8 +12,28 @@ time="9:00 mše sv."
 intention="Za Josefa Čermáka, rodiče, švagra Zdeňka, živou rodinu a duše v očistci" 
 >}}
 
+{{< mass 
+day="25" 
+month="čvc" 
+text="Svátek sv. Jakuba, apoštola" 
+reading="https://m.liturgie.cz/misal/08sanctoral/07_25.htm" 
+time="17:30 mše sv." 
+intention="Za † Jana a Vladimíra Bálku, živou rodinu a duše v očistci" 
+>}}
+
+{{< mass 
+day="28" 
+month="čvc" 
+text="17. Neděle v mezidobí" 
+reading="https://m.liturgie.cz/misal/06mezidobi/17_00.htm" 
+time="9:00 mše sv." 
+intention="Za živou a † rodinu Povolnou, Hanušovu, Ondráčkovu, Žákovu a bratra Pavla" 
+>}}
+
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" icon="fa-solid fa-arrow-up-right-from-square" content="Rozpis čtení" target="blank" class="icon-link" >}}
 
 **Farní oznámení**
+
+Příští neděli bude zastupovat P. Petr Kopřiva SDB.
 
 Po mši se modlíme na 4 úmysly: za Ukrajinu, za dary DS pro nového Brněnského biskupa, za nová kněžská a řeholní povolání a za přírodu. Tyto úmysly spojíme do jedné společné modlitby Otče náš a Zdrávas Maria.
