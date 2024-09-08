@@ -34,8 +34,4 @@ intention="Za živou a † rodinu Novotnou a Sýkorovu"
 
 **Farní oznámení**
 
-**Setkání PRF** v Měnín proběhne ve čtvrtek 5. 9. po mši na faře.
-
-Poutní autobus do Žarošic odjíždí v sobotu 7. 9. Detaily a časy odjezdů jsou na nástěnce.
-
 Po mši se modlíme na 4 úmysly: za Ukrajinu, za dary DS pro nového Brněnského biskupa, za nová kněžská a řeholní povolání a za přírodu. Tyto úmysly spojíme do jedné společné modlitby Otče náš a Zdrávas Maria.
