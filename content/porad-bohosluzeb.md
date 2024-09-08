@@ -3,31 +3,31 @@ title: Pořad bohoslužeb
 type: unlisted
 ---
 
-{{< mass 
-day="1" 
-month="zář" 
-text="22. Neděle v mezidobí" 
-reading="https://m.liturgie.cz/misal/06mezidobi/22_00.htm" 
-time="9:00 mše sv." 
-intention="Za rodinu Motalovu, Krajíčkovu a Praxovu" 
->}}
-
-{{< mass 
-day="5" 
-month="zář" 
-text="Čtvrtek 22. týdne v mezidobí"
-reading="https://m.liturgie.cz/misal/06mezidobi/22_04.htm"
-time="17:30 mše sv." 
-intention="" 
->}}
-
-{{< mass 
+{{< mass
 day="8" 
 month="zář" 
 text="23. Neděle v mezidobí" 
 reading="https://m.liturgie.cz/misal/06mezidobi/23_00.htm"
 time="9:00 mše sv." 
 intention="Za Jana Dolinu a rodinu Povolnou a Kamenickou"
+>}}
+
+{{< mass 
+day="12" 
+month="zář" 
+text="Čtvrtek 23. týdne v mezidobí"
+reading="https://m.liturgie.cz/misal/06mezidobi/23_04.htm"
+time="17:30 mše sv." 
+intention="Za rodinu Motyčákovu a Dicko" 
+>}}
+
+{{< mass
+day="15" 
+month="zář" 
+text="24. Neděle v mezidobí" 
+reading="https://m.liturgie.cz/misal/06mezidobi/24_00.htm"
+time="9:00 mše sv." 
+intention="Za živou a † rodinu Novotnou a Sýkorovu"
 >}}
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" icon="fa-solid fa-arrow-up-right-from-square" content="Rozpis čtení" target="blank" class="icon-link" >}}
