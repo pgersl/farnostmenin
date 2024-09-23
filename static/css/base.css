@@ -224,6 +224,9 @@ aside {
     font-weight: bold;
     color: var(--accent5);
 }
+.mass.time-alert #time i {
+    color: var(--txt-clr);
+}
 
 #gallery img {
     width: 100%;
