@@ -203,8 +203,8 @@ aside {
     background-color: var(--accent1);
     color: var(--bg-clr);
     font-weight: bold;
-    max-width: 25px;
-    padding: .3em;
+    width: 30px;
+    height: 45px;
     border-radius: .3em;
 }
 .mass-left-day, .event-left-day {

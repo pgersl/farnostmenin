@@ -61,6 +61,7 @@
 @media (max-width:450px) {
     .hero-news-card {
         flex-direction: column;
+        margin-bottom: 0em;
     }
     .hero-news-card img {
         width: 100%;

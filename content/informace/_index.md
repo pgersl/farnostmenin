@@ -33,12 +33,35 @@ type: single
 
 ## Výuka náboženství
 
-| Den     | Čas           | Třída         |
-|---------|---------------|---------------|
-| Pondělí | 13:00 – 13:45 | 3. třída      |
-|         | 14:00 – 14:45 | 4. - 6. třída |
-| Čtvrtek | 12:30 – 13:15 | 1. třída      |
-|         | 13:30 – 14:15 | 2. třída      |
+<table>
+    <thead>
+        <tr>
+            <th>Den</th>
+            <th>Čas</th>
+            <th>Třída</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="3">Středa</td>
+            <td>13:00 – 13:45</td>
+            <td>1. třída</td>
+        </tr>
+        <tr>
+            <td>14:00 – 14:45</td>
+            <td>4. – 7. třída</td>
+        </tr>
+        <tr>
+            <td>15:00 – 15:45</td>
+            <td>3. třída</td>
+        </tr>
+        <tr>
+            <td>Čtvrtek</td>
+            <td>13:00 – 13:45</td>
+            <td>2. třída</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Svátosti
 
