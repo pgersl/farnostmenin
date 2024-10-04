@@ -227,6 +227,9 @@ aside {
 .mass.time-alert #time i {
     color: var(--txt-clr);
 }
+.mass.time-alert #time i:hover {
+    color: var(--accent1);
+}
 
 #gallery img {
     width: 100%;

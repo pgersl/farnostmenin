@@ -17,8 +17,10 @@ type: single
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1FYu2OWpfDJdbs4ll4hFEOHe0QIxj703I/edit#gid=597759443" icon="fa-solid fa-arrow-up-right-from-square" content="Pořadník služeb" target="blank" class="icon-link" >}}
 
-- **katechetka**
+- **katechetky**
     - Růžena Aujezdská
+    - Hana Umlášková
+    - Jaroslava Novotňáková
 - **varhaníci**
     - Markéta Krejčiříková (tel.: 732 960 079)
     - Jaroslav Šťastný
