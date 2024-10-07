@@ -203,7 +203,7 @@ aside {
     background-color: var(--accent1);
     color: var(--bg-clr);
     font-weight: bold;
-    width: 30px;
+    min-width: 30px !important;
     height: 45px;
     border-radius: .3em;
 }
