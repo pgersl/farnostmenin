@@ -5,6 +5,10 @@
     transition: opacity 1s ease-in-out;
     opacity: 0;
     z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .hero-banner.active {
     opacity: 1;
@@ -12,12 +16,11 @@
 }
 
 .hero-banner-content {
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 3em);
+    height: calc(100% - 3em);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2em;
 }
 .hero-banner-content * {
     z-index: 2;
