@@ -45,7 +45,7 @@ h1 {
     color: var(--blue);
 }
 h2, h3, h4 {
-    margin: 1.5em 0 1em 0;
+    margin: 1em 0 1em 0;
     color: var(--blue);
 }
 h1 {
@@ -333,6 +333,10 @@ footer {
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
 }
+footer strong {
+    display: block;
+    margin-bottom: 1em;
+}
 .footer-content {
     width: 90vw;
     margin: 0 auto;
@@ -353,11 +357,13 @@ footer {
 }
 .footer-copy {
     width: 90vw;
-    margin: 2em auto 0 auto;
+    margin-top: 2em;
+    margin-inline: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     z-index: 1;
+    text-align: left;
 }
 footer::after {
     content: "";
