@@ -1,28 +1,39 @@
 {{define "styles"}}
     <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/banners.css">
+{{end}}
+{{define "scripts"}}
+    <script src="/js/banners.js" defer></script>
+{{end}}
+{{define "hero"}}
+    <div class="layout-item" id="hero">
+        <div class="hero-banner" id="welcome">
+            <div class="hero-banner-content">
+                <h1>Vítejte na stránkách <strong class="gold-text">Farnosti Měnín</strong></h1>
+                <p>Zde najdete veškeré aktuální informace o naší farnosti, novinky, události a fotky.</p>
+            </div>
+        </div>
+        <div class="hero-banner" id="vanoce-ve-farnosti">
+            <div class="hero-banner-content">
+                <h1>Vánoce v naší farnosti</h1>
+                <p>Prožijte duchovní svátky v našem farním společenství!</p>
+                <a href="/informace/vanoce" class="continue-button">Více informací &rarr;</a>
+            </div>
+        </div>
+        <div class="hero-banner" id="nove-stranky-dieceze">
+            <div class="hero-banner-content">
+                <h1>Brněnská diecéze má nové stránky</h1>
+                <p>Podívejte se na nové stránky brněnské diecéze!</p>
+                <a href="https://www.biskupstvi.cz/" class="continue-button">biskupstvi.cz &rarr;</a>
+            </div>
+        </div>
+    </div>
 {{end}}
 {{define "main"}}
     {{$pages := where .Site.Pages ".Params.type" "news"}}
-    {{with index $pages 0}}
-        <section class="hero-section">
-            <div class="hero-news-card">
-                <img src="{{.Params.titimg}}">
-                <div>
-                    <h2><a href="{{.RelPermalink}}">{{.Title}}</a></h2>
-                    <p>{{.Params.show}}</p>
-                    <a class="continue-button" href="{{.RelPermalink}}">Číst dále &rarr;</a>
-                </div>
-            </div>
-        </section>
-    {{end}}
+    <h2>Aktuality</h2>
     <section class="row-section">
-        {{with index $pages 1}}
-        {{partial "news-card.html" .}}
-        {{end}}
-        {{with index $pages 2}}
-        {{partial "news-card.html" .}}
-        {{end}}
-        {{with index $pages 3}}
+        {{range $pages | first 4}}
         {{partial "news-card.html" .}}
         {{end}}
     </section>

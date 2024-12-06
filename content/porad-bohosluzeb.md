@@ -30,10 +30,12 @@ time="9:00 mše sv."
 intention="Za Jaroslava Šťastného, dvoje rodiče a živou a † rodinu"
 >}}
 
-{{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" icon="fa-solid fa-arrow-up-right-from-square" content="Rozpis čtení" target="blank" class="icon-link" >}}
+{{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" content="Rozpis čtení" target="blank" class="icon-link" >}}
 
 **Farní oznámení**
 
 V sakristii si zapisujte úmysly na mše svaté v příštím roce. Také jsou k prodeji stolní kalendáře.
 
 Po mši se modlíme na 4 úmysly: za Ukrajinu, za dary DS pro nového Brněnského biskupa, za nová kněžská a řeholní povolání a za přírodu. Tyto úmysly spojíme do jedné společné modlitby Otče náš a Zdrávas Maria.
+
+{{< icon-link link="/informace/vanoce" content="Vánoce v naší farnosti" target="self" class="icon-link" >}}

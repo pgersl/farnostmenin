@@ -1,0 +1,10 @@
+<div class="inline-event">
+    <div class="event-time">
+        <div class="event-time-day">{{.Get "day"}}</div>
+        <div class="event-time-month">{{.Get "month"}}</div>
+    </div>
+    <div class="event-info">
+        <div class="event-title">{{.Get "title"}}</div>
+        {{with .Get "info"}}<div class="event-info">{{.}}</div>{{end}}
+    </div>
+</div>

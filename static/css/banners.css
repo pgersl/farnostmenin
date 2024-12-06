@@ -1,0 +1,71 @@
+.hero-banner {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+    z-index: 0;
+}
+.hero-banner.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+.hero-banner-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+.hero-banner-content * {
+    z-index: 2;
+}
+.hero-banner h1 {
+    margin-bottom: .3em;
+}
+.hero-banner .continue-button {
+    margin-top: 2em;
+}
+
+
+#welcome {
+    display: flex;
+    background-image: url(/imgs/base/kostel-bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #210768ab;
+    background-blend-mode: multiply;
+    color: var(--bg-clr);;
+}
+
+#vanoce-ve-farnosti::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 5rem;
+    background-image: url(/imgs/base/bd-symbol.svg);
+    background-repeat: repeat;
+    background-position: top left;
+    z-index: 1;
+    opacity: .4;
+}
+#vanoce-ve-farnosti {
+    background-color: var(--gold3);
+    color: var(--blue);
+}
+
+#nove-stranky-dieceze {
+    background-image: url(/imgs/banners/stranky.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: #000000ab;
+    background-blend-mode: multiply;
+    color: var(--bg-clr);
+}

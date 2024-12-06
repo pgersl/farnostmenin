@@ -25,27 +25,32 @@
 </head>
 
 <body>
-    <header>
-        <div class="header-text">Farnost Měnín</div>
-        <nav>
-            {{range .Site.Menus.main}}
-                <a href="{{.URL}}" target="_self">{{.Name}}</a>
-            {{end}}
-        </nav>
-    </header>
+    <nav> 
+        <div class="nav-content">
+            <div class="nav-logo">
+                <a href="/"><img src="/imgs/base/logo.svg" alt="Farnost Měnín"></a>
+            </div>
+            <div class="nav-links">
+                {{range .Site.Menus.main}}
+                    <a class="nav-link" href="{{.URL}}" target="_self">{{.Name}}</a>
+                {{end}}
+        </div>
+        </div>
+    </nav>
+    {{block "hero" .}}{{end}}
     <div class="flex-container">
         <aside>
             <div class="aside-item">
                 <div class="aside-item-content" id="masses">
                     {{with .Site.GetPage "porad-bohosluzeb.md"}}
-                        <strong>{{.Title}}</strong>
+                        <h5>{{.Title}}</h5>
                         {{.Content}}
                     {{end}}
                 </div>
             </div>
             <div class="aside-item">
                 <div class="aside-item-content" id="events">
-                    <strong>Nadcházející události</strong>
+                    <h5>Nadcházející události</h5>
                     {{$events := where .Site.Pages ".Params.type" "event" | first 3}}
                     {{$now := now}}
                     {{$futureEvents := where $events "Date" ">" $now}}
@@ -70,7 +75,7 @@
             <div class="aside-item">
                 <div class="aside-item-content" id="gallery">
                     {{range where .Site.Pages ".Params.type" "gallery" | first 1}}
-                        <strong>{{.Title}}</strong>
+                        <h5>{{.Title}}</h5>
                         <img src="{{.Params.titimg}}">
                         <a class="continue-button" href="{{.RelPermalink}}">Galerie &rarr;</a>
                     {{end}}
@@ -85,6 +90,7 @@
             </section>
             <section class="main-section">
                 <div class="main-section-content" id="donator">
+                    <h2 style="margin-top:0">Donátor</h2>
                     <img id="donator-long" src="https://donator.cz/SVG/plugin1366banner/1505.svg">
                     <img id="donator-small" src="https://donator.cz/SVG/plugin1367banner/1505.svg">
                 </div>
@@ -93,37 +99,38 @@
     </div>
     <footer>
         <div class="footer-content">
-            <div class="footer-item">
-                <h4>ŘKF Měnín</h4>
-                Městečko 73, 664 57 Měnín<br>
-                e-mail: <a href="mailto:menin@dieceze.cz">menin@dieceze.cz</a><br>
-                IČO: 670 27 695<br>
-                datová schránka: 4r4vcg3<br>
-                č. ú.: 2141899389/0800<br><br>
-                Mgr. et Bc. Jaroslav Trávníček<br>
-                <em>excurrendo administrátor</em><br>
-                +420 777 259 336
+            <div class="footer-info">
+                <div class="footer-item">
+                    <h4>ŘKF Měnín</h4>
+                    Městečko 73, 664 57 Měnín<br>
+                    e-mail: <a href="mailto:menin@dieceze.cz">menin@dieceze.cz</a><br>
+                    IČO: 670 27 695<br>
+                    datová schránka: 4r4vcg3<br>
+                    č. ú.: 2141899389/0800<br><br>
+                    Mgr. et Bc. Jaroslav Trávníček<br>
+                    <em>excurrendo administrátor</em><br>
+                    +420 777 259 336
+                </div>
+                <div class="footer-item">
+                    <h4>Navigace</h4>
+                    {{range .Site.Menus.main}}
+                        <a href="{{.URL}}" target="_self">{{.Name}}</a><br>
+                    {{end}}
+                </div>
+                <div class="footer-item">
+                    <h4>Důležité odkazy</h4>
+                    <a href="https://www.cirkev.cz/" target="_blank">církev.cz</a><br>
+                    <a href="https://www.vira.cz/" target="_blank">víra.cz</a><br>
+                    <a href="https://www.proglas.cz/" target="_blank">Radio Proglas</a><br>
+                    <a href="https://tvnoe.cz/" target="_blank">TV Noe</a><br>
+                    <a href="https://www.biskupstvi.cz/aktualne" target="_blank">biskupství.cz</a><br>
+                    <a href="https://dekanstvi.cz/" target="_blank">děkanství.cz</a><br>
+                    <a href="https://donator.cz/projektpuls/1505" target="_blank">donátor.cz</a><br>
+                    <a href="http://www.concordia.cz/www/index.php" target="_blank">Concordia</a><br>
+                    <a href="https://www.pohrby.eu/" target="_blank">pohřby.eu</a>
+                </div>
             </div>
             <div class="footer-item">
-                <h4>Navigace</h4>
-                {{range .Site.Menus.main}}
-                    <a href="{{.URL}}" target="_self">{{.Name}}</a><br>
-                {{end}}
-            </div>
-            <div class="footer-item">
-                <h4>Důležité odkazy</h4>
-                <a href="https://www.cirkev.cz/" target="_blank">církev.cz</a><br>
-                <a href="https://www.vira.cz/" target="_blank">víra.cz</a><br>
-                <a href="https://www.proglas.cz/" target="_blank">Radio Proglas</a><br>
-                <a href="https://tvnoe.cz/" target="_blank">TV Noe</a><br>
-                <a href="https://www.biskupstvi.cz/aktualne" target="_blank">biskupství.cz</a><br>
-                <a href="https://dekanstvi.cz/" target="_blank">děkanství.cz</a><br>
-                <a href="https://donator.cz/projektpuls/1505" target="_blank">donátor.cz</a><br>
-                <a href="http://www.concordia.cz/www/index.php" target="_blank">Concordia</a><br>
-                <a href="https://www.pohrby.eu/" target="_blank">pohřby.eu</a>
-            </div>
-            <div class="footer-item">
-                <h4>Facebook</h4>
                 <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=100064619031559" data-tabs="" data-width="280" data-height="" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/profile.php?id=100064619031559" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=100064619031559">Farnost Měnín</a></blockquote></div>
             </div>
         </div>

@@ -7,6 +7,39 @@
     border-radius: .3em;
 }
 
+.inline-event {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+.event-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gold3);
+    color: var(--gold);
+    font-weight: bold;
+    width: 32px;
+    padding: .3em;
+    border-radius: .3em;
+}
+.event-time-day {
+    font-size: var(--h3-size);
+}
+.event-time-month {
+    font-size: var(--h4-size);
+}
+.event-title {
+    font-size: var(--h4-size);
+    color: var(--blue);
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+
 /* TABLES */
 
 table {

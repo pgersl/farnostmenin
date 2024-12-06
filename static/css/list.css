@@ -13,8 +13,9 @@
     height: auto;
     border-radius: .3em;
 }
-.page-card strong a {
-    text-decoration: none;
+.page-card strong {
+    display: block;
+    margin-bottom: .6em;
 }
 
 .pagination-buttons {
@@ -25,9 +26,13 @@
     align-items: center;
     gap: 1em;
 }
+.pagination-buttons .continue-button {
+    font-family: var(--font);
+    font-weight: bold;
+}
 .pagination-buttons .continue-button.selected {
     cursor: auto;
-    background-color: var(--accent1);
+    background-color: var(--gold);
     color: var(--bg-clr);
 }
 
@@ -52,7 +57,7 @@
     border-radius: .3em;
 }
 .event-card.future .event-time {
-    background-color: var(--accent4);
+    background-color: var(--green);
 }
 .event-time-day {
     font-size: var(--h3-size);

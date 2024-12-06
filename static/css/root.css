@@ -1,13 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap');
 
 :root {
+    --font: 'Readex Pro', sans-serif;
+
     --bg-clr: #FFFFFF;
     --bg-clr2: #FAFAfA;
     --bg-clr3: #00000026;
     --bg-clr4: #e0e0e0;
     --bg-clr5: #000000ad;
     --bg-clr6: #adadad;
+
     --txt-clr: #000000;
+
+    --blue: #210768;
+    --blue2:rgb(23, 5, 73);
+    --blue3: #1E53D6;
+    --gold: #DEAE6B;
+    --gold2: #ebc998;
+    --gold3: #fff3e3;
+    --red: #99303D;
+    --green: #067652;
+    --purple: #723981;
 
     --font-size: 14px;
     --huge-size: 40px;
@@ -19,13 +32,6 @@
 
     --shadow: 0px 0px 10px var(--bg-clr3);
     --transition: all 100ms;
-
-    --accent1: #1687d3;
-    --accent2: #5cb4ee;
-    --accent3: #021420;
-    --accent4: #00A878;
-    --accent5: #f47f25;
-    --grey: #424242;
 
     /*purple
     --accent1: #7b16d3;

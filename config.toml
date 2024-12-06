@@ -12,11 +12,6 @@ buildFuture = "true"
     description = "Oficiální stránky Římskokatolické farnosti Měnín"
 [menus]
     [[menu.main]]
-        identifier = "domu"
-        name = "Domů"
-        url = "/"
-        weight = "1"
-    [[menu.main]]
         identifier = "aktuality"
         name = "Aktuality"
         url = "/aktuality"
