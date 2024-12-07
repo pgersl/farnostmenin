@@ -273,6 +273,10 @@ aside h5 {
     border-radius: .3em;
 }
 
+#gallery .continue-button {
+    font-size: var(--tiny-size);
+}
+
 #events {
     font-size: var(--tiny-size);
 }
