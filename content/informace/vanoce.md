@@ -9,8 +9,8 @@ layout: single
 {{< inline-event day="22" month="pro" title="Farní kavárna" info="10:00" >}}
 {{< inline-event day="23" month="pro" title="Betlémské světlo v Měníně" info="Betlémské světlo bude možné vyzvednout v kostele od 16:00 do 18:00" >}}
 {{< inline-event day="24" month="pro" title="Půlnoční mše svatá" info="21:30, doprovází Malý chrámový sbor" >}}
-{{< inline-event day="25" month="pro" title="Slavnost Narození Páně" info="Mše svátá v 9:00" >}}
-{{< inline-event day="26" month="pro" title="Svátek sv. Štěpána" info="Mše svátá v 9:00" >}}
+{{< inline-event day="25" month="pro" title="Slavnost Narození Páně" info="Mše svatá v 9:00" >}}
+{{< inline-event day="26" month="pro" title="Svátek sv. Štěpána" info="Mše svatá v 9:00" >}}
 {{< inline-event day="27" month="pro" title="Živý betlém" info="15:00" >}}
 {{< inline-event day="29" month="pro" title="Koncert Malého chrámového sboru" info="16:00" >}}
 
