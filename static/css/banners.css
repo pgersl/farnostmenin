@@ -39,7 +39,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #210768ab;
+    background-color: var(--blue-transparent);
     background-blend-mode: multiply;
     color: var(--bg-clr);;
 }
@@ -68,7 +68,17 @@
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-    background-color: #000000ab;
+    background-color: var(--black-transparent);
+    background-blend-mode: multiply;
+    color: var(--bg-clr);
+}
+
+#zahajeni-jubilejniho-roku {
+    background-image: url(https://cmshost01.blob.core.windows.net/cms/ih/https%3A/cmshost01.blob.core.windows.net/cms/media/dzbhpkv2.vhk/castle-7487913_1280.jpg/size%3A902%3A507%7Cresizing_type%3Afill/castle-7487913_1280.webp);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: var(--gold-transparent);
     background-blend-mode: multiply;
     color: var(--bg-clr);
 }

@@ -214,9 +214,15 @@ aside {
 .aside-item-content {
     padding: 1.5em;
 }
+aside p {
+    font-size: var(--tiny-size);
+}
 aside h5 {
     font-size: var(--font-size);
     color: var(--blue);
+}
+aside .continue-button {
+    font-size: var(--tiny-size);
 }
 
 #masses {
@@ -246,13 +252,6 @@ aside h5 {
 .mass-left-day, .event-left-day {
     font-size: var(--h4-size);
 }
-#masses > strong {
-    font-size: var(--font-size);
-}
-#masses .continue-button {
-    font-size: var(--tiny-size);
-    margin: 1em 0;
-}
 .mass-right p {
     margin-bottom: 0em;
 }
@@ -266,15 +265,14 @@ aside h5 {
 .mass.time-alert #time i:hover {
     color: var(--gold);
 }
+#masses .continue-button {
+    margin-top: 1em;
+}
 
 #gallery img {
     width: 100%;
     margin: 1em 0;
     border-radius: .3em;
-}
-
-#gallery .continue-button {
-    font-size: var(--tiny-size);
 }
 
 #events {
@@ -291,6 +289,13 @@ aside h5 {
 }
 #no-events {
     margin: 1em 0 0 0;
+}
+
+#notes p:first-of-type {
+    margin-top: 1em;
+}
+#notes .continue-button {
+    margin-top: 1em;
 }
 
 /* MAIN */

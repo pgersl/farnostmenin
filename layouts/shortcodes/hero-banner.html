@@ -1,0 +1,11 @@
+<div class="hero-banner" id="{{.Get "id"}}">
+    <div class="hero-banner-content">
+        <h1>{{.Get "title"}}</h1>
+        <p>{{.Get "text"}}</p>
+        {{$button := .Get "button"}}
+        {{if not $button }}
+            {{$button = "Více informací"}}
+        {{end}}
+        {{with .Get "link"}}<a href="{{.}}" class="continue-button">{{$button}} &rarr;</a>{{end}}
+    </div>
+</div>

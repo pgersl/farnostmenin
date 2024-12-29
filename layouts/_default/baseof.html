@@ -49,6 +49,14 @@
                 </div>
             </div>
             <div class="aside-item">
+                <div class="aside-item-content" id="notes">
+                    {{with .Site.GetPage "farni-oznameni.md"}}
+                        <h5>{{.Title}}</h5>
+                        {{.Content}}
+                    {{end}}
+                </div>
+            </div>
+            <div class="aside-item">
                 <div class="aside-item-content" id="events">
                     <h5>Nadcházející události</h5>
                     {{$events := where .Site.Pages ".Params.type" "event" | first 3}}
