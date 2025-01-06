@@ -44,7 +44,7 @@
     color: var(--bg-clr);;
 }
 
-#vanoce-ve-farnosti::after {
+#tri-kralove::after {
     content: "";
     position: absolute;
     top: 0;
@@ -58,9 +58,12 @@
     z-index: 1;
     opacity: .4;
 }
-#vanoce-ve-farnosti {
-    background-color: var(--gold3);
-    color: var(--blue);
+#tri-kralove {
+    background-color: var(--blue);
+    color: var(--bg-clr);
+}
+#tri-kralove h1 {
+    color: var(--gold) !important;
 }
 
 #nove-stranky-dieceze {

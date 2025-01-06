@@ -12,10 +12,12 @@
         {{$imgsPath := (printf "imgs/gallery/%s" .Params.gallery )}}
         {{$imgs := readDir (printf "static/%s" $imgsPath)}}
         {{range $index, $img := $imgs}}
-            {{$imgURL := (printf "/%s/%s" $imgsPath $img.Name)}}
-            <div class="gallery-item">
-                <img src="{{$imgURL}}">
-            </div>
+            {{if ne $img.Name ".DS_Store"}}
+                {{$imgURL := (printf "/%s/%s" $imgsPath $img.Name)}}
+                <div class="gallery-item">
+                    <img src="{{$imgURL}}">
+                </div>
+            {{end}}
         {{end}}
     </div>
     <dialog id="gallery-view">

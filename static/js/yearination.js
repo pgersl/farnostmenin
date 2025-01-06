@@ -28,5 +28,5 @@ function showGalleries(imgSeries) {
     });
 }
 
-showGalleries(2023)
-selectButton(paginationContainer.querySelector('#galleries-2023'))
+showGalleries(2024)
+selectButton(paginationContainer.querySelector('#galleries-2024'))
