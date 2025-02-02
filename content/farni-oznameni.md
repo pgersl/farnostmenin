@@ -3,4 +3,4 @@ title: Farní oznámení
 type: unlisted
 ---
 
-Po mši se modlíme na 4 úmysly: za Ukrajinu, za dary DS pro nového Brněnského biskupa, za nová kněžská a řeholní povolání a za přírodu. Tyto úmysly spojíme do jedné společné modlitby Otče náš a Zdrávas Maria.
+Společnou modlitbu na dlouhodobé úmysly, jak jsme se společně modlili po mši svaté, se již takto modlit nebudeme. Ne proto, že by nebyla zapotřebí, ale v této formě se již v ostatních farnostech nepraktikuje. Budu rád, pokud si ji zachováte jakou soukromou modlitbu i nadále. Děkuji.
