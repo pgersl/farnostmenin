@@ -85,3 +85,13 @@
     background-blend-mode: multiply;
     color: var(--bg-clr);
 }
+
+#e-kosiky {
+    background-image: url(https://donator.cz/media/cache/projekt_detail/images/projekty/daryfaronline1.jpg?t=6);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: var(--blue-transparent);
+    background-blend-mode: multiply;
+    color: var(--bg-clr);
+}
