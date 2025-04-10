@@ -3,4 +3,4 @@ title: Farní oznámení
 type: unlisted
 ---
 
-Otec biskup Vojtěch oslaví 35 let výročí biskupského svěcení. Děkovná mše je v pondělí 31. března v 10 hod. v katedrále sv. Petra a Pavla v Brně.
+Svátost smíření před Velikonocemi bude v Přísnoticích v sobotu 12. 4. od 15.30 hod, v Měníně od 17.00 hod. V Blučině v neděli 13. 4. od 8.30 hod. Využívejte také všední dny přede/po večerní mši.
