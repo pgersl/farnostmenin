@@ -24,14 +24,6 @@ type: single
 - **varhaníci**
     - Markéta Krejčiříková (tel.: 732 960 079)
     - Jaroslav Šťastný
-- **ministranti**
-    - Václav Gregorovič
-    - Matěj Chmelík
-    - Jakub Chmelík
-    - Jiří Malík
-    - Vojtěch Malík
-    - Marek Vylášek
-    - Vojtěch Vylášek
 
 ## Výuka náboženství
 
@@ -64,6 +56,18 @@ type: single
         </tr>
     </tbody>
 </table>
+
+## Pastorační rada
+
+Členové pastorační rady jmenováni 1. 11. 2023 na dobu 5 let:
+
+- Romana Králová
+- Hana Umlášková
+- Pavel Chmelík
+- Renata Prokešová
+- Dana Grolichová
+- Růžena Aujezdská
+- Jaroslava Novotňáková
 
 ## Svátosti
 
