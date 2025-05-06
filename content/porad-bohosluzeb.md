@@ -4,37 +4,28 @@ type: unlisted
 ---
 
 {{< mass
-day="20" 
-month="dub" 
-text="Slavnost Zmrtvýchvstání Páně" 
-reading="https://m.liturgie.cz/misal/04triduum/05vzkriseni.htm"
+day="4" 
+month="kvě" 
+text="3. neděle velikonoční" 
+reading="https://m.liturgie.cz/misal/05velikonoce/03_00.htm"
 time="9:00 mše sv." 
-intention="Za farníky"
+intention="Za manžela, dvoje rodiče, bratra, Jolanu Sýkorovu a duše v očistci"
 >}}
 
-{{< mass 
-day="21" 
-month="dub" 
-text="Pondělí v oktávu velikonočním"
-reading="https://m.liturgie.cz/misal/05velikonoce/01_01.htm"
-time="9:00 mše sv." 
-intention="Za živou a † rodinu Povolnou, Ondráčkovu, Žákovu, Hanušovu a duše v očistci" 
->}}
-
-{{< mass 
-day="24" 
-month="dub" 
-text="Čtvrtek v oktávu Velikonočním"
-reading="https://m.liturgie.cz/misal/05velikonoce/01_04.htm"
+<!-- {{< mass 
+day="15" 
+month="kvě" 
+text="Čtvrtek po 4. neděli velikonoční"
+reading="https://m.liturgie.cz/misal/05velikonoce/04_04.htm"
 time="17:30 mše sv." 
-intention="Na úmysl dárce" 
->}}
+intention="" 
+>}} -->
 
 {{< mass
-day="27" 
-month="dub" 
-text="2. neděle velikonoční (Božího milosrdenství)" 
-reading="https://m.liturgie.cz/misal/05velikonoce/02_00.htm"
+day="11" 
+month="kvě" 
+text="4. neděle velikonoční" 
+reading="https://m.liturgie.cz/misal/05velikonoce/04_00.htm"
 time="9:00 mše sv." 
 intention="Za farníky"
 >}}
