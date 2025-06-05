@@ -2,6 +2,9 @@
 title: Farní oznámení
 type: unlisted
 ---
-**Program Noci kostelů** v Blučině je upřesněn na zvláštním letáku. Podrobnosti jsou zveřejněny na něm.
+**Farní pouť**: Odjezdy z jednotlivých nástupních míst:
+- **Měnín**, zastávka naproti kostela - autobus bude přistaven v 6:40, odjezd v 6:50
+- **Blučina**, náměstí (ve směru z Měnína) - autobus bude přistaven v 7:00, odjezd v 7:10
+- **Přísnotice**, zastávka u kostela - autobus bude přistaven v 7:25, odjezd v 7:30.
 
-**Farní pouť**: Farní pouť do Šternberského kláštera a na Svatý Kopeček u Olomouce se uskuteční v sobotu 7. června. Podrobnosti na letáčku na nástěnce a webu farnosti. Zapisujte se jednotlivě do formuláře vzadu v kostele.
+Peníze budeme vybírat v autobusu. Detaily (včetně ceny) o pouti na letáku na nástěnce awebových stránkách.

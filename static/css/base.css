@@ -214,7 +214,7 @@ aside {
 .aside-item-content {
     padding: 1.5em;
 }
-aside p {
+aside p, aside li {
     font-size: var(--tiny-size);
 }
 aside h5 {

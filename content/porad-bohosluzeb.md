@@ -4,31 +4,30 @@ type: unlisted
 ---
 
 {{< mass
-day="18" 
-month="kvě" 
-text="5. neděle velikonoční" 
-reading="https://m.liturgie.cz/misal/05velikonoce/05_00.htm"
+day="1" 
+month="čvn" 
+text="7. neděle velikonoční" 
+reading="https://m.liturgie.cz/misal/05velikonoce/07_00.htm"
 time="9:00 mše sv." 
-intention="Za rodinu Konečnou a Čermákovu, syna Zdeňka, Miloše a Václava a duše v očistci"
+intention="Za farníky"
 >}}
 
 {{< mass 
-day="22" 
-month="kvě" 
-text="Čtvrtek po 5. neděli velikonoční"
-reading="https://m.liturgie.cz/misal/05velikonoce/05_04.htm"
+day="5" 
+month="čvn" 
+text="Památka sv. Bonifáce, biskupa a mučedníka"
+reading="https://m.liturgie.cz/misal/08sanctoral/06_05.htm"
 time="17:30 mše sv." 
-intention="Na úmysl dárce" 
+intention="Za živou a † rodinu Barančicovu" 
 >}}
 
 {{< mass
-class="time-alert"
-day="18" 
-month="kvě" 
-text="6. neděle velikonoční" 
-reading="https://m.liturgie.cz/misal/05velikonoce/06_00.htm"
-time="10:30 mše sv., 1. svaté příjmání" 
-intention="Za živou a † rodinu Sládečkovu a Lenku Morávkovu"
+day="8" 
+month="čvn" 
+text="Slavnost Seslání Ducha Svatého" 
+reading="https://m.liturgie.cz/misal/05velikonoce/07_07a.htm"
+time="9:00 mše sv." 
+intention="Za Matěje, jeho dvě manželky, Jana a Annu, rodinu Kopřivovu a Libuši Pavelkovu"
 >}}
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" content="Rozpis čtení" target="blank" class="icon-link" >}}
