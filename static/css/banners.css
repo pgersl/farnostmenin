@@ -95,3 +95,10 @@
     background-blend-mode: multiply;
     color: var(--bg-clr);
 }
+
+#base-img {
+    background-image: url(/imgs/aktuality/25-6-22.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}

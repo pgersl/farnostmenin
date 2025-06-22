@@ -5,6 +5,12 @@ type: index
 ---
 
 {{< hero-banner
+id="base-img"
+title=""
+text=""
+>}}
+
+{{< hero-banner
 id="e-kosiky"
 title="V našem kostele máme e-košíky!"
 text="Nyní lze přispívat do naší farní sbírky také elektronicky. Podívejte se jak na to!"
