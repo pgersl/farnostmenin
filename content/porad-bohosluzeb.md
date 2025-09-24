@@ -22,11 +22,12 @@ intention="Za rodinu Aujeskou a Lauterbachovu"
 >}}
 
 {{< mass
+class="time-alert"
 day="28" 
 month="zář" 
 text="Slavnost sv. Václava, mučedníka, hlavního patrona českého národa" 
 reading="https://m.liturgie.cz/misal/08sanctoral/09_28.htm"
-time="9:00 mše sv." 
+time="7:30 mše sv." 
 intention="Za živou a † rodinu Aujezdskou, Povolnou, Koláčkovu a Strouhalovu"
 >}}
 
