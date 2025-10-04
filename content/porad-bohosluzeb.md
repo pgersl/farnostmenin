@@ -4,31 +4,30 @@ type: unlisted
 ---
 
 {{< mass
-day="21" 
-month="zář" 
-text="25. neděle v mezidobí" 
-reading="https://m.liturgie.cz/misal/06mezidobi/25_00.htm"
+day="5" 
+month="říj" 
+text="27. neděle v mezidobí" 
+reading="https://m.liturgie.cz/misal/06mezidobi/27_00.htm"
 time="9:00 mše sv." 
-intention="Za Blaženu a Vojtěcha Konvicovy, syna Vojtěcha, sourozence a duše v očistci"
+intention="Za farníky"
 >}}
 
-{{< mass 
+<!-- {{< mass 
 day="25" 
 month="zář" 
-text="Čtvrtek 25. týdne v mezidobí"
-reading="https://m.liturgie.cz/misal/06mezidobi/25_04.htm"
+text="Čtvrtek 28. týdne v mezidobí"
+reading="https://m.liturgie.cz/misal/06mezidobi/28_04.htm"
 time="17:30 mše sv." 
-intention="Za rodinu Aujeskou a Lauterbachovu"
->}}
+intention=""
+>}} -->
 
 {{< mass
-class="time-alert"
-day="28" 
-month="zář" 
-text="Slavnost sv. Václava, mučedníka, hlavního patrona českého národa" 
-reading="https://m.liturgie.cz/misal/08sanctoral/09_28.htm"
-time="7:30 mše sv." 
-intention="Za živou a † rodinu Aujezdskou, Povolnou, Koláčkovu a Strouhalovu"
+day="12" 
+month="říj" 
+text="28. neděle v mezidobí" 
+reading="https://m.liturgie.cz/misal/06mezidobi/28_00.htm"
+time="9:00 mše sv." 
+intention="Za Marii a Jana Aujeských, živou rodinu, Boží ochranu k Panně Marii ustavičné pomoci a duše v očistci"
 >}}
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" content="Rozpis čtení" target="blank" class="icon-link" >}}
