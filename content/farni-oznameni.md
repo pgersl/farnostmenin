@@ -2,6 +2,6 @@
 title: Farní oznámení
 type: unlisted
 ---
-**Jubilejní setkání seniorů** s otcem biskupem bude ve středu 24. 9. na Petrově. Detailní program je na zvláštním letáku na nástěnce.
+V tomto týdnu od neděle 5. 10. do pátku 10. 10. budu na DC. Z toho důvodu nebudou ve všední den večerní bohoslužby. V případě nutnosti mě zastupuje P. Oldřich Chocholáč z Telnice. Děkuji za pochopení a vstřícnost.
 
-**Modlitba za volby**: křesťané různých církví v ČR se spojili a vytvořili nepřetržitou modlitební stráž. Více na [narodnimodlitebnistraz.cz](www.narodnimodlitebnistraz.cz). Zapojit se může každý, i neorganizovaně. ČBK nás zve k [novéně za volby](https://cmshost01.blob.core.windows.net/cms/media/0pyqqk42.h0t/novena-k-volbam.pdf). Text je zveřejněn v KT, na webu farnosti a volně jako aplikace do mobilu.
+**Charita**: Koláč pro hospic bude ve středu 8. 10. 2025 (Blučina a Přísnotice). Podrobnosti na nástěnce.

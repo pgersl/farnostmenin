@@ -2,11 +2,11 @@
 title: "Výuka náboženství v tomto školním roce"
 layout: single
 type: news
-show: "Letos začínáme s výukou náboženství od 9. října. Výuka probíhá ve středu a čtvrtek na faře."
-date: 2024-10-04
-titimg: "/imgs/aktuality/4-10-24.png"
+show: "Zde je aktuální rozvrh hodin náboženství pro tento školní rok."
+date: 2025-10-06
+titimg: "/imgs/aktuality/25-10-6.png"
 ---
 
-Letos začínáme s výukou náboženství od 9. října. Výuka probíhá ve středu a čtvrtek na faře.
+Zde je aktuální rozvrh hodin náboženství pro tento školní rok.
 
-{{< fig src="/imgs/aktuality/4-10-24.png" >}}
+{{< fig src="/imgs/aktuality/25-10-6.png" >}}
