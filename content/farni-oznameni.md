@@ -2,6 +2,6 @@
 title: Farní oznámení
 type: unlisted
 ---
-V tomto týdnu od neděle 5. 10. do pátku 10. 10. budu na DC. Z toho důvodu nebudou ve všední den večerní bohoslužby. V případě nutnosti mě zastupuje P. Oldřich Chocholáč z Telnice. Děkuji za pochopení a vstřícnost.
+**Příští neděli se koná sbírka na podporu misií prostřednictvím Papežských misijních děl.**
 
-**Charita**: Koláč pro hospic bude ve středu 8. 10. 2025 (Blučina a Přísnotice). Podrobnosti na nástěnce.
+V sobotu 18. října se koná na Biskupském gymnáziu Laboratoř pastoračních příležitostí a projektů. Tentokrát akce není určena jen pro členy PRF. Jejím smyslem a cílem je nabídnout sadu informací, nápadů a námětů, co dalšího je možné konat ve farnostech. Více informací je na [webu biskupství](https://www.biskupstvi.cz/cs/laborator-pastoracnich-prilezitosti).
