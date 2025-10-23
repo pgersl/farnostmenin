@@ -2,6 +2,4 @@
 title: Farní oznámení
 type: unlisted
 ---
-**Příští neděli se koná sbírka na podporu misií prostřednictvím Papežských misijních děl.**
-
-V sobotu 18. října se koná na Biskupském gymnáziu Laboratoř pastoračních příležitostí a projektů. Tentokrát akce není určena jen pro členy PRF. Jejím smyslem a cílem je nabídnout sadu informací, nápadů a námětů, co dalšího je možné konat ve farnostech. Více informací je na [webu biskupství](https://www.biskupstvi.cz/cs/laborator-pastoracnich-prilezitosti).
+Na základě dovolení Apoštolské Penitenciárie mohou věřící v naší republice získat plnomocné odpustky pro duše v očistci už v týdnu před Vzpomínkou na všechny věrné zemřelé (tedy od 25. října), pokud z vážných důvodů nemohou navštívit hřbitovy v obvyklé době od 2. do 8. listopadu.
