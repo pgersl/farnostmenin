@@ -2,4 +2,8 @@
 title: Farní oznámení
 type: unlisted
 ---
-Na základě dovolení Apoštolské Penitenciárie mohou věřící v naší republice získat plnomocné odpustky pro duše v očistci už v týdnu před Vzpomínkou na všechny věrné zemřelé (tedy od 25. října), pokud z vážných důvodů nemohou navštívit hřbitovy v obvyklé době od 2. do 8. listopadu.
+**Dušičková pobožnost proběhne ve čtvrtek 6. 11. v 17:00 přede mší svatou.**
+
+V sakristii jsou k dispozici stolní kalendáře s katolickým kalendáriem na příští rok.
+
+15\. listopadu v 17:00 v předsálí Lidového domu v Blučině proběhne přednáška z Blučiny do Říma Štěpána Ocha a Davida Hanušky.
