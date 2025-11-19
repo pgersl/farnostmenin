@@ -4,4 +4,5 @@ type: unlisted
 ---
 V sakristii jsou k dispozici stolní kalendáře s katolickým kalendáriem na příští rok.
 
-15\. listopadu v 17:00 v předsálí Lidového domu v Blučině proběhne přednáška z Blučiny do Říma Štěpána Ocha a Davida Hanušky. Všichni jste zváni.
+Od této neděle probíhá Týden modliteb za mládež. V sobotu 22.11. se koná v Brně
+na Petrově Diecézní setkání mládeže. Prosím a modlitbu za mládež a setkání.
