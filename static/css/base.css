@@ -242,7 +242,7 @@ aside .continue-button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: var(--gold);
+    background-color: var(--purple);
     color: var(--bg-clr);
     font-weight: bold;
     min-width: 30px !important;
