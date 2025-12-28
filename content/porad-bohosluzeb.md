@@ -16,7 +16,7 @@ intention="Za živou a † rodinu Aujeskou, Absolonovu, Maresovu, duše v očis
 day="1" 
 month="led" 
 text="Slavnost Matky Boží Panny Marie"
-reading="https://m.liturgie.cz/misal/01advent/12_24.htm"
+reading="https://m.liturgie.cz/misal/08sanctoral/01_01.htm"
 time="9:00 mše sv." 
 intention="Za přijatá dobrodiní v uplynulém roce a za naději v tomto nadcházejícím roce"
 >}}
@@ -25,7 +25,7 @@ intention="Za přijatá dobrodiní v uplynulém roce a za naději v tomto nadc
 day="4" 
 month="led" 
 text="Slavnost zjevení Páně"
-reading="https://m.liturgie.cz/misal/02vanoce/12_25d.htm" 
+reading="https://m.liturgie.cz/misal/02vanoce/01_06x.htm" 
 time="9:00 mše sv." 
 intention="Za Josefa Novotného a duše v očistci"
 >}}
