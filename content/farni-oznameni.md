@@ -3,6 +3,4 @@ title: Farní oznámení
 type: unlisted
 ---
 
-Tříkrálová sbírka v Měnín proběhne 11. 1. v neděli po mši svaté.
-
-Sledujte stránky [krestanskevanoce.cz](https://krestanskevanoce.cz/) pro aktuální programy v různých farnostech.
+Svátost biřmování je v Blučině naplánovaná na neděli 18. 10. 2026 v 10.30. Udělovat ji bude biskup Pavel Konzbul. Skupinka mladých se již na tuto slavnost připravuje delší dobu. Pokud by měl zájem někdo další, ať mě neprodleně kontaktuje, abychom naplánovali další postup přípravy.

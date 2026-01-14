@@ -4,30 +4,30 @@ type: unlisted
 ---
 
 {{< mass
-day="28" 
-month="pro" 
-text="Svátek Svaté Rodiny" 
-reading="https://m.liturgie.cz/misal/02vanoce/SvRodina.htm"
+day="11" 
+month="led" 
+text="Svátek Křtu Páně" 
+reading="https://m.liturgie.cz/misal/02vanoce/KrtuPane.htm"
 time="9:00 mše sv." 
-intention="Za živou a † rodinu Aujeskou, Absolonovu, Maresovu, duše v očistci a za mír na celém světě"
+intention="Za farníky"
 >}}
 
 {{< mass 
-day="1" 
+day="15" 
 month="led" 
-text="Slavnost Matky Boží Panny Marie"
-reading="https://m.liturgie.cz/misal/08sanctoral/01_01.htm"
+text="Čtvrtek 1. týdne v mezidobí"
+reading="https://m.liturgie.cz/misal/06mezidobi/01_04.htm"
 time="9:00 mše sv." 
-intention="Za přijatá dobrodiní v uplynulém roce a za naději v tomto nadcházejícím roce"
+intention=""
 >}}
 
 {{< mass 
-day="4" 
+day="18" 
 month="led" 
-text="Slavnost zjevení Páně"
-reading="https://m.liturgie.cz/misal/02vanoce/01_06x.htm" 
+text="2. neděle v mezidobí"
+reading="https://m.liturgie.cz/misal/06mezidobi/02_00.htm" 
 time="9:00 mše sv." 
-intention="Za Josefa Novotného a duše v očistci"
+intention="Za živou a † rodinu Buchtovu a duše v očistci"
 >}}
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" content="Rozpis čtení" target="blank" class="icon-link" >}}
