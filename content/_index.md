@@ -5,6 +5,14 @@ type: index
 ---
 
 {{< hero-banner
+id="tri-kralove"
+title="Vybralo se 100 252 Kč!"
+text="V neděli 11.1 2025 probíhala v naší obci Tříkrálová sbírka. Vaše štědrost nás nepřestává udivovat - celkový výtěžek letos přesáhl sto tisíc korun."
+link="https://www.trikralovasbirka.cz/"
+button="trikralovasbirka.cz"
+>}}
+
+{{< hero-banner
 id="e-kosiky"
 title="V našem kostele máme e-košíky!"
 text="Nyní lze přispívat do naší farní sbírky také elektronicky. Podívejte se jak na to!"

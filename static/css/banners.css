@@ -59,8 +59,8 @@
     opacity: .4;
 }
 #tri-kralove {
-    background-color: var(--blue);
-    color: var(--bg-clr);
+    background-color: var(--gold3);
+    color: var(--blue);
 }
 #tri-kralove h1 {
     color: var(--gold) !important;
