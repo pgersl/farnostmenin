@@ -66,8 +66,8 @@
     color: var(--gold) !important;
 }
 
-#nove-stranky-dieceze {
-    background-image: url(/imgs/banners/stranky.png);
+#buladrbola {
+    background-image: url(/imgs/banners/buladrbola.png);
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
