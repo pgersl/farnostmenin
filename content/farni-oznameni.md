@@ -3,6 +3,6 @@ title: Farní oznámení
 type: unlisted
 ---
 
-Popelec se u nás bude udělovat na začátku nedělní bohoslužby 1. neděle postní. Příští neděli se také koná sbírka Haléř sv. Petra.
+**Křížové cesty jsou každou neděli od 14. hod**. Domluvte se, prosím, kdo křížovou cestu povede a napište se do rozpisu vzadu v kostele. K dispozici jsou texty.
 
 Slavnost blahořečení P. Jana Buly a P. Václava Drboly proběhne v sobotu 6. června 2026. Postupně budou uvolňovány a doručovány podklady do farností a zveřejňován detailní program. Více na webu [buladrbola.cz](https://www.buladrbola.cz/).
