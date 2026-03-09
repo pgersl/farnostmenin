@@ -4,30 +4,30 @@ type: unlisted
 ---
 
 {{< mass 
-day="1" 
-month="bře" 
-text="2. neděle postní"
-reading="https://m.liturgie.cz/misal/03pust/02_00.htm" 
-time="9:00 mše sv." 
-intention="Za Josefa a Andělu Ralenovských, dva syny a celou rodinu"
->}}
-
-{{< mass 
-day="5" 
-month="bře" 
-text="Čtvrtek po 2. neděli postní"
-reading="https://m.liturgie.cz/misal/03pust/02_04.htm"
-time="17:30 mše sv." 
-intention="Na poděkování za dar lásky a vyprošení Božího požehnání pro mladé snoubence"
->}}
-
-{{< mass 
 day="8" 
 month="bře" 
 text="3. neděle postní"
 reading="https://m.liturgie.cz/misal/03pust/03_00.htm" 
 time="9:00 mše sv." 
 intention="Za živou a † rodinu Povolnou, Aujezdskou, Procházkovu a duše v očistci"
+>}}
+
+{{< mass 
+day="12" 
+month="bře" 
+text="Čtvrtek po 3. neděli postní"
+reading="https://m.liturgie.cz/misal/03pust/03_04.htm"
+time="17:30 mše sv." 
+intention="Na úmysl dárce"
+>}}
+
+{{< mass 
+day="8" 
+month="bře" 
+text="4. neděle postní"
+reading="https://m.liturgie.cz/misal/03pust/04_00.htm" 
+time="9:00 mše sv." 
+intention="Za farníky"
 >}}
 
 {{< icon-link link="https://docs.google.com/spreadsheets/d/1B_5PpFPmeEkRWF-dg4-zX7KUxMAZHSmQovQW34TBzaM/edit?usp=drive_link" content="Rozpis čtení" target="blank" class="icon-link" >}}
