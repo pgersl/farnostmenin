@@ -22,7 +22,7 @@ intention="Na úmysl dárce"
 >}}
 
 {{< mass 
-day="15" 
+day="22" 
 month="bře" 
 text="5. neděle postní"
 reading="https://m.liturgie.cz/misal/03pust/05_00.htm" 
