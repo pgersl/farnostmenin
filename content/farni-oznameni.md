@@ -3,8 +3,10 @@ title: Farní oznámení
 type: unlisted
 ---
 
-**Byla spuštěna registrace** na slavnost blahořečení Jana Buly a Václava Drboly. Více informací naleznete přímo na stránkách [buladrbola.cz](https://www.buladrbola.cz/)
+**V neděli se koná sbírka na oslavu blahořečení Jana Buly a Václava Drboly.**
+
+**Svátost smíření před Velikonocemi** bude v Měníně od 17.00 hod. Využívejte také všední dny před/po večerní mši.
 
 **Křížové cesty jsou každou neděli od 14. hod**. Domluvte se, prosím, kdo křížovou cestu povede a napište se do rozpisu vzadu v kostele. K dispozici jsou také [texty s tématikou blahořečení Jana Buly a Václava Drboly](/media/bula-drbola-krizova-cesta.pdf).
 
-Kartička s modlitbou k blahořečení Jana Buly a Václava Drboly je prozatím fyzicky nedostupná, využijte proto [této digitální formy](/media/bula-drbola-karticka.pdf).
+Po mši se budeme společně modlit [modlitbu k blahořečení P. J. Buly a P. V. Drboly](/media/bula-drbola-karticka.pdf).
