@@ -3,8 +3,6 @@ title: Farní oznámení
 type: unlisted
 ---
 
-**V neděli se koná sbírka na oslavu blahořečení Jana Buly a Václava Drboly.**
-
-**Svátost smíření před Velikonocemi** bude v Měníně v sobotu od 17.00 hod. Využívejte také všední dny před/po večerní mši.
+**Končí postničky.** Prosíme ty, kteří si je vzali domů, aby je v neděli vzali do kostela, abychom je mohli odevzdat Charitě. Děkuji.
 
 Po mši se budeme společně modlit [modlitbu k blahořečení P. J. Buly a P. V. Drboly](/media/bula-drbola-karticka.pdf).
