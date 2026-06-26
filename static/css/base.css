@@ -224,6 +224,12 @@ aside h5 {
 aside .continue-button {
     font-size: var(--tiny-size);
 }
+aside img {
+    width: min(100%, 400px);
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
 
 #masses {
     font-size: var(--tiny-size);
