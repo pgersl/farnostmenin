@@ -1,9 +1,9 @@
 ---
 title: "Farní výlet"
 type: event
-date: 2025-05-31
-day: 31
-month: kvě
-show: "Pojďte s námi na (C)hřiby! Přihlášky na stolečku v kostele."
-titimg: "/imgs/aktuality/25-5-6.jpg"
+date: 2026-08-29
+day: 29
+month: srp
+show: "Stezka bosou nohou Valtice"
+titimg: "/imgs/aktuality/26-08-29.png"
 ---
