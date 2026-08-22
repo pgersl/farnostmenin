@@ -8,6 +8,10 @@
     color: var(--gold);
 }
 
+.aside-item:nth-child(3) {
+    display: none;
+}
+
 h1, h2, h5 {
     width: fit-content;
     margin-top: 0;
@@ -16,23 +20,45 @@ h1 {
     color: inherit !important;
 }
 
+.main-section:first-of-type {
+    background-color: var(--bg-clr2);
+    box-shadow: none;
+    width: 100%;
+}
+.main-section:first-of-type .main-section-content {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2em;
+}
+.news-section {
+    width: 50%;
+    background-color: var(--bg-clr);
+    border-radius: 1em;
+    box-shadow: var(--shadow);
+}
+.news-section-content {
+    padding: 1.5em;
+}
+
+
 .news-card {
     display: flex;
     flex-direction: row;
     gap: 2em;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: flex-start;
     width: 100%;
     flex: 1;
+    margin-bottom: 1.5em;
 }
 .news-card p {
     margin-bottom: 0;
 }
 .news-card img {
-    width: auto;
     width: 120px;
     height: auto;
-    margin: 0 auto 1.5em auto;
     display: block;
     border-radius: .3em;
 }
@@ -40,15 +66,43 @@ h1 {
     display: block;
     margin-bottom: .6em;
 }
-.row-section {
+
+.event {
+    flex-direction: column;
+    margin-top: 0;
+}
+/* .event-left {
+    min-width: 50px !important;
+    height: 70px;
+}
+.event-left-day {
+    font-size: 2em;
+    line-height: 1em;
+    font-weight: 600;
+}
+.event-left-month {
+    font-size: 1.3em;
+    font-weight: 600;
+} */
+.event-top {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    align-items: center;
+    justify-content: flex-start;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2em;
+}
+.event img {
+    width: 100%;
+    height: auto;
+    border-radius: .3em;
 }
 
-@media (max-width:1000px) {
-    .row-section {
-        grid-template-columns: 1fr;
+@media (max-width: 1000px) {
+    .main-section:first-of-type .main-section-content {
+        flex-direction: column-reverse;
+    }
+    .main-section:first-of-type .news-section {
+        width: 100%;
     }
 }

@@ -1,9 +1,12 @@
-const eventContainer = document.getElementById('events')
-const eventCards = eventContainer.querySelectorAll('.event')
-const noEvents = eventContainer.querySelector('#no-events')
+const eventContainers = [document.getElementById('events'), document.getElementById('events-section')]
 
-if (eventCards.length > 0) {
-    noEvents.style.display = "none"
-} else {
-    noEvents.style.display = "block"
-}
+eventContainers.forEach(container => {
+    const eventCards = container.querySelectorAll('.event')
+    const noEvents = container.querySelector('#no-events')
+    if (eventCards.length > 0) {
+        noEvents.style.display = "none"
+    } else {
+        noEvents.style.display = "block"
+    }
+})
+

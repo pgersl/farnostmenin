@@ -17,11 +17,41 @@
     </div>
 {{end}}
 {{define "main"}}
-    {{$pages := where .Site.Pages ".Params.type" "news"}}
-    <h2>Aktuality</h2>
-    <section class="row-section">
-        {{range $pages | first 4}}
-        {{partial "news-card.html" .}}
-        {{end}}
-    </section>
+    <div class="news-section">
+        <div class="news-section-content">
+            {{$pages := where .Site.Pages ".Params.type" "news"}}
+            <h2>Aktuality</h2>
+            {{range $pages | first 3}}
+                {{partial "news-card.html" .}}
+            {{end}}
+        </div>
+    </div>
+    <div class="news-section" id="events-section">
+        <div class="news-section-content">
+            <h2>Nejbližší události</h2>
+            {{$events := where .Site.Pages ".Params.type" "event" | first 1}}
+            {{$now := now}}
+            {{$futureEvents := where $events "Date" ">" $now}}
+            {{range $futureEvents.Reverse}}
+                <div class="event">
+                    <div class="event-top">
+                        <div class="event-left">
+                            <div class="event-left-day">{{.Params.day}}</div>
+                            <div class="event-left-month">{{.Params.month}}</div>
+                        </div>
+                        <div class="event-right">
+                            <strong>{{.Title}}</strong>
+                            {{with .Params.web}}<a href="{{.}}" target="_blank">Web</a>{{end}}
+                        </div>
+                    </div>
+                    {{with .Params.titimg}}
+                        <a href="{{.}}" target="_blank">
+                            <img src="{{.}}">
+                        </a>
+                    {{end}}
+                </div>
+            {{end}}
+            <p id="no-events">Žádné události</p>
+        </div>
+    </div>
 {{end}}
