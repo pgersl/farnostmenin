@@ -2,7 +2,7 @@
 title: Farní oznámení
 type: unlisted
 ---
-V době prázdnin kněží čerpají dovolenou a zbývající potřebují mít volno pro nutné zastupování. Proto nebudou večerní mše svaté ve všední dny. Případná změna bude včas ohlášena.
+**Pouť do Žarošic** – sběrný autobus bude odjíždět ze zastávek podle rozpisu na nástěnce.
 
 **Sbírka na opravu zvonů:**
 
