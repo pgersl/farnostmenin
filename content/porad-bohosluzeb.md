@@ -17,7 +17,7 @@ day="10"
 month="zář" 
 text="Čtvrtek 23. týdne v mezidobí"
 reading="https://m.liturgie.cz/misal/06mezidobi/23_04.htm" 
-time="9:00 mše sv." 
+time="17:30 mše sv." 
 intention="Za živou a † rodinu Povolnou, Kamenickou a Jana Dolinu"
 >}}
 
