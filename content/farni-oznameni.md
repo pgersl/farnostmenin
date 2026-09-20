@@ -4,9 +4,7 @@ type: unlisted
 ---
 Přihlášky do náboženství jsou vzadu v kostele, podrobnosti na letáku.
 
-Úklid fary bude v pátek 18.9. mezi 16-18 hod.
-
-Prosíme o pomoc při zabezpečení jáhenského svěcení v pátek 2.10. Postup přípravy budeme postupně aktualizovat.
+Prosím všechny ochotné, kteří by pomohli s pohoštěním a organizací jáhenského svěcení. Sešli bychom se ve čtvrtek 24.9. po večerní mši. Postup přípravy budeme postupně aktualizovat.
 
 **Sbírka na opravu zvonů:**
 
