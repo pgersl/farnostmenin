@@ -3,7 +3,4 @@ title: "Římskokatolická farnost Měnín"
 layout: home
 type: index
 ---
-
-Na přípravné schůzce ve čtvrtek 24.9. jsme společně naplánovali jednotlivé kroky přípravy.
-
-Prosíme další ochotné lidi o zapojení do konkrétních úkolů. Děkuji.
+{{< hero-banner id="zacni-kde-jsi" title="Odpuštění není slabost." text="Je to rozhodnutí." button="Začni, kde jsi" link="https://zacnikdejsi.cz/" >}}
