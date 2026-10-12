@@ -3,7 +3,7 @@ title: Farní oznámení
 type: unlisted
 ---
 
-Velké poděkování všem, kdo jakkoli pomáhali při realizaci a zajištění jáhenského svěcení.
+Sbírka na zvony bude až příští neděli 25. 10.
 
 Byl spuštěn projekt [Začni, kde jsi](https://zacnikdejsi.cz/).
 
